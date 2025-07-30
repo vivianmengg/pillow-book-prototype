@@ -1,0 +1,65 @@
+PILLOW BOOK PASSAGE ARTIFACT ANALYSIS
+========================================
+
+Passage: "Someone who has been serving as a mere maid-of-honour is appointed to be the nurse of an Imperial Prince. She no longer bothers with a Chinese jacket or a formal skirt, and, weaving a simple white dress, she lies down next to the young prince and stays with him inside his curtain-dais. Summoning her former colleagues, she sends them to her room with messages or gives them letters to deliver. Words do not suffice to describe her behaviour.
+
+What a splendid thing it is for a Subordinate Official in the Emperor's Private Office when he is promoted to the rank of Chamberlain! One cannot believe that he is the same man who last year in the Eleventh Month had to carry a zither during the Special Festival. When one sees him walking along in the company of young noblemen, one really wonders where he can have sprung from. This applies also to men who have been given the rank of Chamberlain after serving in other offices, but in their case the change is not quite so impressive."
+
+IDENTIFIED MATERIAL OBJECTS:
+============================
+
+1. CHINESE JACKET (唐衣 - kara-koromo)
+   - Descriptive details: Formal outer garment worn by court ladies, abandoned when the maid becomes a nurse
+   - Historical context: Essential component of Heian court dress (jūnihitoe), worn over multiple layers, indicates high rank
+   - Museum search terms: "Heian period kara-koromo", "Tang-style jacket", "court lady outer garment", "Japanese court dress"
+   - Artifact type: Clothing (formal court attire)
+
+2. FORMAL SKIRT (裳 - mo)
+   - Descriptive details: Ceremonial lower garment worn by court ladies, discarded for simpler attire
+   - Historical context: Pleated train-like garment worn as part of formal court dress, symbol of aristocratic status
+   - Museum search terms: "Heian mo skirt", "court lady formal skirt", "pleated court train", "ceremonial lower garment"
+   - Artifact type: Clothing (formal court attire)
+
+3. SIMPLE WHITE DRESS (白い衣 - shiroi koromo)
+   - Descriptive details: Plain, informal garment worn by the nurse, contrasting with elaborate court dress
+   - Historical context: Kosode or similar undergarment worn as outer dress, white symbolizing purity and service
+   - Museum search terms: "Heian white kosode", "simple court dress", "white silk garment", "informal court attire"
+   - Artifact type: Clothing (informal/service attire)
+
+4. CURTAIN-DAIS (几帳 - kicho)
+   - Descriptive details: Portable screen/curtain structure where the nurse stays with the prince
+   - Historical context: Essential Heian furniture piece providing privacy and status indication, made of silk with decorative frames
+   - Museum search terms: "Heian kicho screen", "court curtain dais", "portable privacy screen", "aristocratic room divider"
+   - Artifact type: Furniture/Interior furnishing
+
+5. ZITHER (琴 - koto)
+   - Descriptive details: Musical instrument carried by the subordinate official during the Special Festival
+   - Historical context: Seven-stringed Chinese-style zither, crucial for court music and ceremonies, symbol of cultural refinement
+   - Museum search terms: "Heian period koto", "court zither", "seven-string zither", "gagaku musical instrument"
+   - Artifact type: Musical instrument
+
+6. LETTERS (文 - fumi)
+   - Descriptive details: Written correspondence delivered by former colleagues
+   - Historical context: Elaborately decorated paper letters, often with seasonal motifs, calligraphy as art form
+   - Museum search terms: "Heian period letters", "court correspondence", "decorated paper", "aristocratic calligraphy"
+   - Artifact type: Documents/Paper goods
+
+MOST DISTINCTIVE AND MUSEUM-FINDABLE OBJECTS:
+===========================================
+
+PRIMARY TARGETS:
+1. Curtain-dais (kicho) - Highly distinctive furniture piece, likely preserved in museums
+2. Zither (koto) - Musical instruments often well-preserved, essential court artifact
+3. Chinese jacket (kara-koromo) - Elaborate textile, representative of court hierarchy
+
+SECONDARY TARGETS:
+4. Formal skirt (mo) - Part of complete court dress ensembles
+5. Simple white dress - Represents contrast in court hierarchy
+6. Letters - Calligraphy and paper art highly valued and preserved
+
+ADDITIONAL CONTEXT:
+==================
+- Special Festival (特別の祭り) likely refers to specific court ceremonies where musical instruments were required
+- Eleventh Month timing suggests seasonal court activities
+- Rank progression from Subordinate Official to Chamberlain represents specific court hierarchy system
+- All objects reflect Heian period (794-1185) aristocratic culture and court life
