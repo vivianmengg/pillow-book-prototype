@@ -132,7 +132,7 @@ const ALL_PASSAGES = [
             date: "Heian period style (original period: 794-1185)",
             period: "Heian period reconstruction",
             medium: "Cypress wood (traditional materials)",
-            image: "https://lh3.googleusercontent.com/ci/AL18g_Qxxr15xd0RXBLNu5Fk_u1XTDKMZSTp0hRc29VgT54JVFYgWskk06DlAV_dH9RItztwPV2lv72p",
+            image: "./images/hiogi-fan.jpg",
             url: "https://artsandculture.google.com/asset/cypress-slat-folding-fan-hi%C5%8Dgi-heian-period-costumes/mgFcZeJr28faWw?hl=en",
             museum: "Kyoto Women's University, Lifestyle Design Laboratory",
             connection: "This authentic Heian period hiōgi (cypress fan) is exactly what Sei Shōnagon would have been 'waving' during the suffocating summer heat she describes. These folding fans made of cypress wood slats were essential court accessories - by the mid-Heian period, cypress fans in winter and paper fans in summer were codified parts of aristocratic costume. The fact that she 'lays aside' her fan when the letter arrives shows how central these elegant implements were to daily court life, where even the simple act of staying cool required beautiful, carefully crafted objects that symbolized social status and refined taste."
@@ -152,8 +152,8 @@ const ALL_PASSAGES = [
                 date: "Heian period style (original period: 794-1185)",
                 period: "Heian period reconstruction",
                 medium: "Silk, wooden frame",
-                image: "https://lh3.googleusercontent.com/ci/AL18g_SeROVRFvqIrMEaUD3HAZcQWZDj8gsyCtIbWoZQknmGI2x0mShDRppOv1bqiTVS-xSrAR281w",
-                url: "https://artsandculture.google.com/story/heian-period-costumes-kyoto-women-s-university/GgUhgthsq7w7IQ",
+                image: "./images/kicho-curtain.jpg",
+                url: "https://artsandculture.google.com/asset/room-dividing-standing-curtain-kich-heian-period-costumes/qwFwxqF2EMZaMQ",
                 museum: "Kyoto Women's University, Lifestyle Design Laboratory",
                 connection: "stays with him inside his curtain-dais",
                 description: "This authentic Heian period kichō (curtain-dais) is exactly the type of portable privacy screen mentioned in the passage. When the former maid-of-honour becomes an Imperial Prince's nurse, she 'stays with him inside his curtain-dais' - the kichō provided essential privacy and status separation in aristocratic spaces. These elegant silk-and-wood structures were crucial furniture pieces that defined social boundaries and created intimate spaces within the formal court environment."
@@ -423,25 +423,6 @@ const ALL_PASSAGES = [
         }
     },
     {
-        id: "chinese_mirror",
-        title: "Things That Make One's Heart Beat Faster",
-        text: "To notice that one's elegant Chinese mirror has become a little cloudy. To wash one's hair, make one's toilet, and put on scented robes; even if not a soul sees one, these preparations still produce an inner pleasure.",
-        japanese: "心ときめきするもの。唐の鏡の少し曇りたるを磨きて見たるに、よく澄みて映りたる。",
-        theme: "Personal grooming and beauty implements",
-        tags: ["court", "lists"],
-        artifact: {
-            id: "HAM-58964",
-            title: "Foliate Mirror with Engraved Image of Zaō Gongen",
-            date: "Early 11th century (contemporary with Sei Shōnagon)",
-            period: "Heian period (794–1185)",
-            medium: "Bronze",
-            image: "https://ids.lib.harvard.edu/ids/iiif/437585432/full/full/0/default.jpg",
-            url: "https://harvardartmuseums.org/collections/object/58964",
-            museum: "Harvard Art Museums",
-            connection: "This is exactly the type of 'elegant Chinese mirror' Sei Shōnagon describes! Remarkably, this mirror dates to the early 11th century—Sei Shōnagon's own era around 1000 CE. Bronze mirrors like this would develop a cloudy patina over time, requiring the polishing she mentions. The Zaō Gongen deity reflects the sophisticated Buddhist culture of her court world."
-        }
-    },
-    {
         id: "elegant_things",
         title: "Elegant Things",
         text: "A white coat worn over a violet waistcoat. Duck eggs. Shaved ice mixed with liana syrup and put in a new silver bowl. A rosary of rock crystal. Wisteria blossoms. Plum blossoms covered with snow. A pretty child eating strawberries.",
@@ -458,44 +439,6 @@ const ALL_PASSAGES = [
             url: "https://clevelandart.org/art/1969.124",
             museum: "Cleveland Museum of Art",
             connection: "This writing box represents the type of refined craftsmanship that Sei Shōnagon appreciated in her list of 'elegant things.' The lacquered surface and precious materials reflect the court's sophisticated aesthetic sensibilities that valued both beauty and function in daily objects."
-        }
-    },
-    {
-        id: "scented_robes",
-        title: "Things That Give a Particularly Refined Feeling",
-        text: "A letter written on thin white paper and attached to a spray of plum blossom. A woman's robes that smell of incense. The sound of a Chinese flute in the distance on a spring evening.",
-        japanese: "こしらかなるもの。薄いろの紙に文をかきて、梅の花につけたる。",
-        theme: "Scented clothing and aristocratic refinement",
-        tags: ["fashion", "court"],
-        artifact: {
-            id: "MET-36255",
-            title: "Incense Box (Kōgō)",
-            date: "18th century",
-            period: "Edo period (1615–1868)",
-            medium: "Lacquered wood with maki-e decoration",
-            image: "https://images.metmuseum.org/CRDImages/as/original/DP251078.jpg",
-            url: "https://www.metmuseum.org/art/collection/search/36255",
-            museum: "Metropolitan Museum of Art",
-            description: "This elegant incense box represents the sophisticated world of scent and refinement that Sei Shōnagon treasured. Her appreciation for 'woman's robes that smell of incense' reflects the Heian court's elaborate incense culture, where different fragrances marked seasons, occasions, and personal taste. Such lacquered boxes held precious incense materials that created the refined aromatic atmosphere of aristocratic life."
-        }
-    },
-    {
-        id: "hateful_things",
-        title: "Hateful Things",
-        text: "One is in a hurry to leave, but one's visitor keeps chattering away. If it is someone of no importance, one can get rid of him by saying, 'You must tell me all about it next time'; but, should it be the sort of visitor whose presence commands one's best behavior, the situation is hateful indeed.",
-        japanese: "にくきもの。急ぐことあるをりに限りて、長居する客人。",
-        theme: "Social irritations and court etiquette",
-        tags: ["lists", "court"],
-        artifact: {
-            id: "CMA-1969.124",
-            title: "Writing Box with Pine, Camellia, and Bamboo",
-            date: "1400s (Muromachi period)",
-            period: "Muromachi period (1392–1573)", 
-            medium: "Lacquered wood with gold and silver sprinkled powder (maki-e)",
-            image: "https://openaccess-cdn.clevelandart.org/1969.124/1969.124_web.jpg",
-            url: "https://clevelandart.org/art/1969.124",
-            museum: "Cleveland Museum of Art",
-            connection: "This elegant writing box represents the sophisticated material culture of court life that Sei Shōnagon navigated. When she was 'in a hurry to leave' but trapped by a chattering visitor, she would have been acutely aware of time as someone who valued literary refinement and efficient social interactions."
         }
     },
     {
@@ -516,76 +459,6 @@ const ALL_PASSAGES = [
             museum: "Harvard Art Museums",
             connection: "This is exactly the type of Lotus Sutra scroll that Sei Shōnagon's young bachelor would have been reciting! She specifically mentions 'the sixth scroll of the Lotus Sutra' which he recites from memory while distracted by thoughts of his love letter. The elaborate gold and silver decoration on this fragment reflects the luxury of court life where Buddhist devotion and romantic pursuits intertwined."
         }
-    },
-    {
-        id: "palace_corridor",
-        title: "I Was Standing in a Corridor",
-        text: "I was standing in a corridor of the Palace with several other women when we noticed some servants passing. We summoned them to us (in what I admit was a rather unladylike fashion) and they turned out to be a group of handsome male attendants and pages carrying attractively wrapped bundles and bags. Trouser cords protruded from some, and I noticed that others contained bows, arrows, shields, halberds, and swords. 'Whom do these things belong to?' we asked each of the servants in turn. Some of them knelt down respectfully and replied, 'They belong to Lord So-and-so.' Then they stood up and continued on their way, which was all very nice. But others gave themselves airs, or else were embarrassed and said, 'I don't know', or even went off without replying at all, which I found hateful indeed.",
-        japanese: "廊下に立ちて、女房と物語りして居たれば、たれ人の御前にか、童べ、あまた走り過ぎたり。いとをかしき若人どもにて、美々しく装束きたる袋・包みなど持ちたり。その中に袴の腰なんど見えたるもあり。弓・矢・楯・矛・太刀などのあるもあり。「これは誰が物ぞ」と問へば、おのがどちひざまづきて、「それがしの宮の」など言ひて、立ちぬ。いとよし。また、人に問はれぬやうに立ち去りぬるもあり。心憂し。",
-        theme: "Palace daily life and social hierarchies among court servants",
-        tags: ["court", "fashion"],
-        artifacts: [
-            {
-                id: "KYOTO-IMPERIAL-PALACE",
-                title: "Kyoto Imperial Palace Corridor (Hisashi)",
-                date: "Reconstruction completed 1855 (reproducing Heian period architecture)",
-                period: "Heian period architectural tradition (794-1185)",
-                medium: "Traditional Japanese palace architecture with hinoki cypress wood",
-                image: "https://images.metmuseum.org/CRDImages/as/original/55155.jpg",
-                url: "https://en.wikipedia.org/wiki/Kyoto_Imperial_Palace",
-                museum: "Kyoto Imperial Palace (Imperial Household Agency)",
-                connection: "I was standing in a corridor of the Palace",
-                description: "The hisashi corridors of the Shishin-den represent the exact type of palace corridor where Sei Shōnagon stood observing court life. These long, thin hallways surrounded the main wings of aristocratic homes in traditional Heian architecture, providing covered walkways for court activities. The elegant wooden structure with its raised floors and open design created perfect vantage points for watching the daily business of palace servants and attendants moving through the complex."
-            },
-            {
-                id: "TNM-MIKAZUKI-MUNECHIKA",
-                title: "Tachi 'Mikazuki Munechika' (Crescent Moon)",
-                date: "Heian period, 12th century",
-                period: "Heian period (794-1185)",
-                medium: "Steel with curved blade and decorative fittings",
-                image: "https://images.metmuseum.org/CRDImages/aa/original/LC-45_24_15-002.jpg",
-                url: "https://en.wikipedia.org/wiki/Mikazuki_Munechika",
-                museum: "Tokyo National Museum (National Treasure)",
-                connection: "swords",
-                description: "The famous Mikazuki Munechika represents the type of curved sword (tachi) that Sei Shōnagon observed being carried by court attendants. Created by the master swordsmith Sanjo Munechika, this blade exemplifies the elegant weapons that emerged during the late Heian period. Named for its crescent-shaped hamon pattern, it's one of the 'Five Swords Under Heaven' and shows the sophisticated metalworking that made Heian swords both functional military equipment and objects of aesthetic appreciation."
-            },
-            {
-                id: "SOKUTAI-COURT-DRESS",
-                title: "Sokutai (Male Court Costume)",
-                date: "Heian period court tradition",
-                period: "Heian period (794-1185)",
-                medium: "Silk court robes with hakama trousers and cord fastenings",
-                image: "https://ids.si.edu/ids/iiif/FS-7920_15/full/500,/0/default.jpg",
-                url: "https://en.wikipedia.org/wiki/Sokutai",
-                museum: "Traditional Court Costume (Various Museums)",
-                connection: "Trouser cords protruded from some",
-                description: "The sokutai represents the formal court dress worn by the male attendants and pages that Sei Shōnagon observed. The distinctive hakama trousers were tied with cords that would indeed 'protrude' from wrapped bundles as she describes. This elaborate costume system, with its multiple layers and precise cord fastenings, reflected the rigid hierarchy of court service. The glimpse of trouser cords revealed both the practical reality of transporting court dress and the careful attention to rank and appearance that governed palace life."
-            },
-            {
-                id: "JAPANESE-YUMI-BOW",
-                title: "Japanese Asymmetric Bow (Yumi)",
-                date: "Heian period military tradition",
-                period: "Heian period (794-1185)",
-                medium: "Wood (catalpa, zelkova, or mulberry) with traditional construction",
-                image: "https://images.metmuseum.org/CRDImages/aa/original/LC-1982_136-007.jpg",
-                url: "https://en.wikipedia.org/wiki/Yumi",
-                museum: "Traditional Japanese Archery Equipment",
-                connection: "bows, arrows",
-                description: "The distinctive asymmetric yumi bow represents the primary weapon Sei Shōnagon observed being transported by court servants. These two-meter bows were central to Heian military culture, used primarily by mounted warriors. The fact that court attendants were carrying such weapons through palace corridors reflects the intersection of military preparedness and court ceremony. Kyūjutsu (archery) was considered more vital than swordsmanship during this period, making these bows both practical military equipment and symbols of aristocratic martial accomplishment."
-            },
-            {
-                id: "FUROSHIKI-WRAPPING",
-                title: "Traditional Japanese Wrapping Cloth (Furoshiki)",
-                date: "Ancient Japanese tradition (Heian period practice)",
-                period: "Heian period (794-1185)",
-                medium: "Silk or hemp textile with decorative patterns",
-                image: "https://images.metmuseum.org/CRDImages/as/original/DP-14918-001.jpg",
-                url: "https://en.wikipedia.org/wiki/Furoshiki",
-                museum: "Traditional Japanese Textile Culture",
-                connection: "attractively wrapped bundles and bags",
-                description: "The elegant cloth wrapping that Sei Shōnagon describes as 'attractively wrapped bundles' represents the sophisticated packaging culture of Heian court life. These textile wrappers allowed servants to transport valuable items like weapons and court costumes with both protection and aesthetic appeal. The careful wrapping was itself a form of court etiquette, showing respect for the objects within and maintaining the visual harmony expected in palace environments. The glimpses of trouser cords and weapon shapes through the wrapping created exactly the kind of tantalizing social observation that Sei Shōnagon found so compelling."
-            }
-        ]
     }
 ];
 
