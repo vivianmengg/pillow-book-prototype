@@ -132,7 +132,7 @@ const ALL_PASSAGES = [
             date: "Heian period style (original period: 794-1185)",
             period: "Heian period reconstruction",
             medium: "Cypress wood (traditional materials)",
-            image: "https://lh3.googleusercontent.com/ci/AL18g_TP1hucEV-5xDXt_rFV_n0qSrKkiC-um_P4lgot5LYIHQsh1iFVGgQlWNaXGmop9l7HiuB6mfjO",
+            image: "https://lh3.googleusercontent.com/ci/AL18g_Qxxr15xd0RXBLNu5Fk_u1XTDKMZSTp0hRc29VgT54JVFYgWskk06DlAV_dH9RItztwPV2lv72p",
             url: "https://artsandculture.google.com/asset/cypress-slat-folding-fan-hi%C5%8Dgi-heian-period-costumes/mgFcZeJr28faWw?hl=en",
             museum: "Kyoto Women's University, Lifestyle Design Laboratory",
             connection: "This authentic Heian period hiōgi (cypress fan) is exactly what Sei Shōnagon would have been 'waving' during the suffocating summer heat she describes. These folding fans made of cypress wood slats were essential court accessories - by the mid-Heian period, cypress fans in winter and paper fans in summer were codified parts of aristocratic costume. The fact that she 'lays aside' her fan when the letter arrives shows how central these elegant implements were to daily court life, where even the simple act of staying cool required beautiful, carefully crafted objects that symbolized social status and refined taste."
@@ -152,7 +152,7 @@ const ALL_PASSAGES = [
                 date: "Heian period style (original period: 794-1185)",
                 period: "Heian period reconstruction",
                 medium: "Silk, wooden frame",
-                image: "https://lh3.googleusercontent.com/ci/AL18g_QnC80rD_BtBCz2duEWHZpycHp16DpKYtAZL4quOYGq3z5tXHsHoLn4laa2OtV3izQWtZQviQ",
+                image: "https://lh3.googleusercontent.com/ci/AL18g_SeROVRFvqIrMEaUD3HAZcQWZDj8gsyCtIbWoZQknmGI2x0mShDRppOv1bqiTVS-xSrAR281w",
                 url: "https://artsandculture.google.com/story/heian-period-costumes-kyoto-women-s-university/GgUhgthsq7w7IQ",
                 museum: "Kyoto Women's University, Lifestyle Design Laboratory",
                 connection: "stays with him inside his curtain-dais",
