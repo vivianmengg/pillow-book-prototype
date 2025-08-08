@@ -36,14 +36,14 @@ const ALL_PASSAGES = [
                 description: "This delicate silver and silver gilt hair ornament represents the type of precious accessories that Heian court ladies wore. The fine craftsmanship shows exactly the fragility Sei Shōnagon observed - these valuable ornaments could 'fall out of their hair, and may be smashed to pieces' when carriages bumped over palace gates. Such elegant pieces were essential to aristocratic appearance and status."
             },
             {
-                id: "TNM-Tebako",
-                title: "Tebako (Cosmetic Box) - Cart Wheels in Stream Design",
-                date: "Kamakura period, 13th century (continuing Heian traditions)",
-                period: "Kamakura period (preserving Heian court culture)",
+                id: "MET-40348",
+                title: "Box for Personal Accessories (Tebako) with Shells and Seaweed Design",
+                date: "Edo period (1615–1868)",
+                period: "Edo period (preserving Heian court culture)",
                 medium: "Lacquered wood with maki-e gold powder and mother-of-pearl inlay",
-                image: "https://lh3.googleusercontent.com/ci/AL18g_TwMwWQGxKhSguDhHE7UL3-MlXo4Dd4qnHdEzw80Tf38CYRlDQ486mvcJ9T37xXRT0mPmzaKA=s1200",
-                url: "https://www.tnm.jp/uploads/r_collection/LL_148.jpg",
-                museum: "Tokyo National Museum",
+                image: "https://images.metmuseum.org/CRDImages/as/original/DP704172.jpg",
+                url: "https://www.metmuseum.org/art/collection/search/40348",
+                museum: "Metropolitan Museum of Art",
                 connection: "not properly powdered",
                 description: "This elegant cosmetic box (tebako) would have contained the white face powder (oshiroi) that court aristocrats applied daily. When Sei Shōnagon noticed men who were 'not properly powdered,' she was observing failures in this essential court grooming ritual. The sophisticated maki-e gold decoration shows the luxury surrounding even basic toiletries."
             }
