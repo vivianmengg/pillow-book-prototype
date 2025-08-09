@@ -132,7 +132,7 @@ const ALL_PASSAGES = [
             date: "Heian period style (original period: 794-1185)",
             period: "Heian period reconstruction",
             medium: "Cypress wood (traditional materials)",
-            image: "./images/hiogi-fan.jpg",
+            image: "https://lh3.googleusercontent.com/ci/AL18g_Qxxr15xd0RXBLNu5Fk_u1XTDKMZSTp0hRc29VgT54JVFYgWskk06DlAV_dH9RItztwPV2lv72p",
             url: "https://artsandculture.google.com/asset/cypress-slat-folding-fan-hi%C5%8Dgi-heian-period-costumes/mgFcZeJr28faWw?hl=en",
             museum: "Kyoto Women's University, Lifestyle Design Laboratory",
             connection: "This authentic Heian period hiōgi (cypress fan) is exactly what Sei Shōnagon would have been 'waving' during the suffocating summer heat she describes. These folding fans made of cypress wood slats were essential court accessories - by the mid-Heian period, cypress fans in winter and paper fans in summer were codified parts of aristocratic costume. The fact that she 'lays aside' her fan when the letter arrives shows how central these elegant implements were to daily court life, where even the simple act of staying cool required beautiful, carefully crafted objects that symbolized social status and refined taste."
@@ -152,7 +152,7 @@ const ALL_PASSAGES = [
                 date: "Heian period style (original period: 794-1185)",
                 period: "Heian period reconstruction",
                 medium: "Silk, wooden frame",
-                image: "./images/kicho-curtain.jpg",
+                image: "https://lh3.googleusercontent.com/ci/AL18g_TgyiYnhsbpogHpDfsOB-AXHqAzZmDdU03A21KkW5A7CEz0TK4eZu0kf5fDVlmORnxylbWN",
                 url: "https://artsandculture.google.com/asset/room-dividing-standing-curtain-kich-heian-period-costumes/qwFwxqF2EMZaMQ",
                 museum: "Kyoto Women's University, Lifestyle Design Laboratory",
                 connection: "stays with him inside his curtain-dais",
