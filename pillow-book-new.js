@@ -316,7 +316,7 @@ const ALL_PASSAGES = [
                 date: "Traditional use from Heian period onwards",
                 period: "Heian period tradition (794-1185)",
                 medium: "Sacred evergreen branches with paper streamers (shide)",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Tamagushi_at_Itsukushima_Shrine.jpg/640px-Tamagushi_at_Itsukushima_Shrine.jpg",
+                image: "./images/sakaki branch.jpg",
                 url: "https://en.wikipedia.org/wiki/Tamagushi",
                 museum: "Traditional Shinto Practice (Representative Example)",
                 connection: "I particularly enjoy the sakaki on occasions like the Imperial sacred dances",
@@ -328,23 +328,11 @@ const ALL_PASSAGES = [
                 date: "Heian period architectural tradition",
                 period: "Heian period (794-1185)",
                 medium: "Hinoki cypress wood construction",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Horyu-ji_National_Treasure_World_heritage_国宝・世界遺産_法隆寺31.JPG/640px-Horyu-ji_National_Treasure_World_heritage_国宝・世界遺産_法隆寺31.JPG",
+                image: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Five-storied_Pagoda_-_H%C5%8Dry%C5%AB-ji_-_Ikaruga%2C_Nara%2C_Japan_-_DSC07559.jpg",
                 url: "https://en.wikipedia.org/wiki/Horyu-ji",
                 museum: "Horyu-ji Temple (UNESCO World Heritage Site)",
                 connection: "the palace of three ridges, four ridges was built with the wood of this tree",
                 description: "The hinoki cypress that Sei Shōnagon mentions was used to build 'the palace of three ridges, four ridges' refers to the traditional Japanese palace architecture of her time. Hinoki wood was prized for its durability, fragrance, and resistance to decay. She notes that 'in the Fifth Month it gives a pleasant imitation of the sound of rain' - a poetic reference to how hinoki structures respond to seasonal weather. Horyu-ji Temple, shown here, exemplifies this ancient building tradition using hinoki wood that has lasted over 1,300 years."
-            },
-            {
-                id: "CULTURAL-OAK",
-                title: "Oak Tree and Middle Palace Guards",
-                date: "Heian period court tradition",
-                period: "Heian period (794-1185)",
-                medium: "Cultural institution and naming tradition",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Quercus_dentata_2.jpg/640px-Quercus_dentata_2.jpg",
-                url: "https://en.wikipedia.org/wiki/Quercus_dentata",
-                museum: "Traditional Cultural Practice",
-                connection: "Captains and Lieutenants of the Middle Palace Guards should be named after this tree",
-                description: "Sei Shōnagon finds it 'fascinating that Captains and Lieutenants of the Middle Palace Guards should be named after this tree.' The common oak (kashiwa) she references was indeed central to court hierarchy - the Middle Palace Guards (Emonfu) had ranks named after the oak tree. She declares it 'a magnificent tree' and notes that 'the God of Leaves lives there!' This connection between the natural world and court bureaucracy reflects the deep integration of nature symbolism in Heian court culture."
             },
             {
                 id: "MET-65603",
