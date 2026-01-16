@@ -82,40 +82,35 @@ async function loadListsFromFirestore() {
         const listsCollection = window.firebaseCollection(window.firebaseDB, 'userLists');
         const snapshot = await window.firebaseGetDocs(listsCollection);
 
-        // Merge Firestore data with local data
+        // Replace local data with Firestore data (Firestore is source of truth)
+        const firestoreLists = {};
+
         snapshot.forEach((doc) => {
             const data = doc.data();
             const listId = data.listId;
 
-            if (!userLists[listId]) {
-                userLists[listId] = [];
+            if (!firestoreLists[listId]) {
+                firestoreLists[listId] = [];
             }
 
-            // Check if this list already exists (by timestamp)
-            const exists = userLists[listId].some(item => item.timestamp === data.timestamp);
-            if (!exists) {
-                userLists[listId].push({
-                    items: data.items,
-                    author: data.author,
-                    date: data.date,
-                    timestamp: data.timestamp,
-                    firestoreId: doc.id
-                });
-            } else {
-                // Update the existing item with firestoreId
-                const existingItem = userLists[listId].find(item => item.timestamp === data.timestamp);
-                if (existingItem) {
-                    existingItem.firestoreId = doc.id;
-                }
-            }
+            firestoreLists[listId].push({
+                items: data.items,
+                author: data.author,
+                date: data.date,
+                timestamp: data.timestamp,
+                firestoreId: doc.id
+            });
         });
 
         // Sort each list by timestamp (newest first)
-        Object.keys(userLists).forEach(listId => {
-            userLists[listId].sort((a, b) => b.timestamp - a.timestamp);
+        Object.keys(firestoreLists).forEach(listId => {
+            firestoreLists[listId].sort((a, b) => b.timestamp - a.timestamp);
         });
 
-        // Update localStorage with merged data
+        // Replace local data with Firestore data
+        userLists = firestoreLists;
+
+        // Update localStorage with Firestore data
         localStorage.setItem('pillowBookUserLists', JSON.stringify(userLists));
 
         // Re-render with loaded data
