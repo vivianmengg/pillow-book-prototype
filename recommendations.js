@@ -160,7 +160,7 @@ const LOCATIONS = [
         currentStatus: "Active imperial residence until 1869, now museum",
         visitInfo: "Open to public with guided tours showing Heian-style architecture",
         coordinates: { lat: 35.0218, lng: 135.7573 }, // Current Kyoto Imperial Palace
-        placeName: "Kyoto Imperial Palace"
+        placeName: "Kyoto Imperial Park"
     },
     {
         id: "shimogamo_shrine",
@@ -240,7 +240,7 @@ const LOCATIONS = [
         currentStatus: "Active shrine, UNESCO World Heritage Site",
         visitInfo: "Famous for its thousands of lanterns and sacred deer park, maintaining traditions from Sei's era",
         coordinates: { lat: 34.6180, lng: 135.8465 }, // Kasuga Taisha Shrine
-        placeName: "Kasuga Taisha Shrine"
+        placeName: "Kasuga Taisha"
     },
     {
         id: "sennyu_temple",

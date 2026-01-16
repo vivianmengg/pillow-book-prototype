@@ -7,7 +7,7 @@ const ALL_PASSAGES = [
         id: "new_year_delights",
         title: "Especially Delightful Is the First Day",
         text: "Especially delightful is the first day of the First Month, when the mists so often shroud the sky. Everyone pays great attention to his appearance and dresses with the utmost care... This is the day when members of the nobility who live outside the Palace arrive in their magnificently decorated carriages to admire the blue horses. As the carriages are drawn over the ground-beam of the Central Gate, there is always a tremendous bump, and the heads of the women passengers are knocked together; the combs fall out of their hair, and may be smashed to pieces if the owners are not careful... Some of them were not properly powdered; here and there their skin showed through unpleasantly like the dark patches of earth in a garden where the snow has begun to melt.",
-        japanese: "一日は、つとめて、霧いと深くて、後涼殿の遣戸の音聞こゆるに...",
+        japanese: "",
         theme: "New Year court ceremonies and their material culture",
         tags: ["court", "seasons", "lists"],
         artifacts: [
@@ -53,7 +53,7 @@ const ALL_PASSAGES = [
         id: "birds",
         title: "Birds",
         text: "The parrot does not belong to our country, but I like it very much. I am told that it imitates whatever people say. The hototogisu, the water-rail, and the snipe; the starling, the siskin, and the fly-catcher. They say when the copper pheasant cries for its mate it can be consoled if one puts a mirror before it — a very moving thought. What misery these birds must suffer if they are separated from each other by a gorge or a ravine! If I were to write down all my thoughts about the crane, I should become tiresome. How magnificent when this bird lets out its cry, which reaches up to the very heavens! Among water fowl it is the mandarin duck that affects me most. How charming to think that the drake and his mate take turns in brushing the frost from each other's wings! The poets have extolled the uguisu as a splendid bird, and so indeed it is; for both its voice and its appearance are most elegant and beautiful.",
-        japanese: "鳥は、鸚鵡。いとはかなげにうつくしげなり。人の語を学びてよく言ふ。霍公鳥。水鶏。鴫。翡翠。鶯。ひわ。ひたき。つり。ところどり。雁はいとをかし。...",
+        japanese: "",
         theme: "Sei Shōnagon's observations on bird behavior and beauty",
         tags: ["lists"],
         artifacts: [
@@ -123,7 +123,7 @@ const ALL_PASSAGES = [
         id: "summer_noon",
         title: "It Is Noon on a Summer Day",
         text: "It is noon on a summer day and the weather is so hot that one does not know what to do with oneself. One keeps waving one's fan, but there is not a breath of cool air; then, just as one is hurrying to put one's hands in a bowl of iced water, a letter arrives. It is written on a sheet of fine, brilliantly red paper and attached to a Chinese pink in full bloom. Without thinking, one lays aside one's fan (which was not doing much good in any case) and imagines how deeply one's friend must feel to have taken all this trouble on such a suffocating day.",
-        japanese: "夏の日の正午ばかりに、いとあつきころ、いかにせまほしく思ふべきものぞ。扇を使ひあがれど、風もせず...",
+        japanese: "",
         theme: "Summer heat and the ritual of correspondence", 
         tags: ["seasons", "court"],
         artifact: {
@@ -132,7 +132,7 @@ const ALL_PASSAGES = [
             date: "Heian period style (original period: 794-1185)",
             period: "Heian period reconstruction",
             medium: "Cypress wood (traditional materials)",
-            image: "https://lh3.googleusercontent.com/ci/AL18g_Qxxr15xd0RXBLNu5Fk_u1XTDKMZSTp0hRc29VgT54JVFYgWskk06DlAV_dH9RItztwPV2lv72p",
+            image: "./images/hiogi fan.jpg",
             url: "https://artsandculture.google.com/asset/cypress-slat-folding-fan-hi%C5%8Dgi-heian-period-costumes/mgFcZeJr28faWw?hl=en",
             museum: "Kyoto Women's University, Lifestyle Design Laboratory",
             connection: "This authentic Heian period hiōgi (cypress fan) is exactly what Sei Shōnagon would have been 'waving' during the suffocating summer heat she describes. These folding fans made of cypress wood slats were essential court accessories - by the mid-Heian period, cypress fans in winter and paper fans in summer were codified parts of aristocratic costume. The fact that she 'lays aside' her fan when the letter arrives shows how central these elegant implements were to daily court life, where even the simple act of staying cool required beautiful, carefully crafted objects that symbolized social status and refined taste."
@@ -142,7 +142,7 @@ const ALL_PASSAGES = [
         id: "changed_people",
         title: "People Who Have Changed as much as if They had been Reborn",
         text: "Someone who has been serving as a mere maid-of-honour is appointed to be the nurse of an Imperial Prince. She no longer bothers with a Chinese jacket or a formal skirt, and, weaving a simple white dress, she lies down next to the young prince and stays with him inside his curtain-dais. Summoning her former colleagues, she sends them to her room with messages or gives them letters to deliver. Words do not suffice to describe her behaviour. What a splendid thing it is for a Subordinate Official in the Emperor's Private Office when he is promoted to the rank of Chamberlain! One cannot believe that he is the same man who last year in the Eleventh Month had to carry a zither during the Special Festival. When one sees him walking along in the company of young noblemen, one really wonders where he can have sprung from.",
-        japanese: "生まれ変わったかと思われるもの。女房などして、宮の御乳母にたつ人。唐衣も着ず、裳も着ねば、白き衣一つを着て、若宮の御側に臥し、几帳の内にあり。",
+        japanese: "",
         theme: "Social transformation and court hierarchy changes",
         tags: ["court", "lists"],
         artifacts: [
@@ -176,7 +176,7 @@ const ALL_PASSAGES = [
         id: "flowering_trees",
         title: "Flowering Trees",
         text: "Plum blossoms, whether light or dark, and in particular red plum blossoms, fill me with happiness. I also like a slender branch of cherry blossoms, with large petals and dark red leaves. How graceful is the wisteria as its branches bend down covered with whorls of delicately coloured petals! The u no hana is a more modest plant and deserves no special praise; yet it flowers at a pleasant time of the year, and I enjoy thinking that a hototogisu may be hiding in its shade. At the end of the Fourth Month and the beginning of the Fifth the orange trees have dark green leaves and are covered with brilliant white flowers. The purple blossoms of the paulownia are also delightful. Besides, it is this tree that provides the wood for the zithers from which come so many beautiful sounds. The melia tree is ugly, but I find its flowers very pretty indeed.",
-        japanese: "花の木ならば、桜の、花びら大きく、色濃く咲きたる、いとおもしろし。梅は、濃きも薄きも、紅梅などもをかし。",
+        japanese: "",
         theme: "Aesthetic appreciation of seasonal flowering trees",
         tags: ["seasons", "lists"],
         artifacts: [
@@ -282,7 +282,7 @@ const ALL_PASSAGES = [
         id: "trees",
         title: "Trees",
         text: "The maple and the five-needled pine, the willow and the orange tree. The Chinese hawthorn has a rather vulgar name (Side Tree); but, when all the other trees have lost their blossoms, its dark red leaves shine out impressively from the green surroundings. I shall say absolutely nothing about the spindle tree. I particularly enjoy the sakaki on occasions like the Imperial sacred dances at the special festivals. Among all the trees in the world this is the one that people have always regarded as the tree of the Divine Presence - a very pleasant thought. The maple is an insignificant tree in itself; but its red-tinged leaves, all spread in the same direction, look very pretty on the branches, and there is something charming about its flowers, which seem as fragile as dried-up insects. The yuzuriha has an abundance of pretty leaves, all green and glossy; but its stem is quite different from what one would expect, for it is red and glittering. The common oak is a magnificent tree. To think that the God of Leaves lives there! It is also fascinating that Captains and Lieutenants of the Middle Palace Guards should be named after this tree.",
-        japanese: "木は、楓、五葉の松、柳、橘。そば木は、いと憎げなる名なれど、花もなき頃、紅葉の色づきて、青きに映えてみゆるは、をかし。",
+        japanese: "",
         theme: "Aesthetic appreciation of trees and their seasonal beauty",
         tags: ["seasons", "lists"],
         artifacts: [
@@ -376,7 +376,7 @@ const ALL_PASSAGES = [
         id: "spring_dawn",
         title: "In Spring It Is the Dawn",
         text: "In spring it is the dawn that is most beautiful. As the light creeps over the hills, their outlines are dyed a faint red and wisps of purplish cloud trail over them.",
-        japanese: "春はあけぼの。やうやう白くなりゆく山ぎは、少し明かりて、紫だちたる雲の細くたなびきたる。",
+        japanese: "",
         theme: "The fleeting beauty of dawn moments",
         tags: ["seasons"],
         artifact: {
@@ -395,7 +395,7 @@ const ALL_PASSAGES = [
         id: "summer_nights",
         title: "In Summer the Nights",
         text: "In summer the nights. Not only when the moon shines, but on dark nights too, as the fireflies flit to and fro, and even when it rains, how beautiful it is!",
-        japanese: "夏は夜。月のころはさらなり、闇もなほ、蛍の多く飛びちがひたる。また、ただ一つ二つなど、ほのかにうち光て行くもをかし。",
+        japanese: "",
         theme: "Nocturnal summer beauty and illumination",
         tags: ["seasons"],
         artifact: {
@@ -414,26 +414,27 @@ const ALL_PASSAGES = [
         id: "elegant_things",
         title: "Elegant Things",
         text: "A white coat worn over a violet waistcoat. Duck eggs. Shaved ice mixed with liana syrup and put in a new silver bowl. A rosary of rock crystal. Wisteria blossoms. Plum blossoms covered with snow. A pretty child eating strawberries.",
-        japanese: "をかしきもの。白き衣に、紫の袴、白き単衣。薄色の単衣に、白き袴。",
+        japanese: "",
         theme: "Court aesthetics and refined objects",
         tags: ["court", "lists"],
         artifact: {
-            id: "CMA-1969.124",
-            title: "Writing Box with Pine, Camellia, and Bamboo",
-            date: "1400s (Muromachi period)",
-            period: "Muromachi period (1392–1573)", 
-            medium: "Lacquered wood with gold and silver sprinkled powder (maki-e)",
-            image: "https://openaccess-cdn.clevelandart.org/1969.124/1969.124_web.jpg",
-            url: "https://clevelandart.org/art/1969.124",
-            museum: "Cleveland Museum of Art",
-            connection: "This writing box represents the type of refined craftsmanship that Sei Shōnagon appreciated in her list of 'elegant things.' The lacquered surface and precious materials reflect the court's sophisticated aesthetic sensibilities that valued both beauty and function in daily objects."
+            id: "HEIAN-ICE-CULTURE",
+            title: "Shaved Ice in Heian Japan",
+            date: "Heian period (794-1185)",
+            period: "Heian period",
+            medium: "Natural winter ice preservation",
+            image: "#",
+            url: "#",
+            museum: "Historical Practice",
+            connection: "Shaved ice mixed with liana syrup and put in a new silver bowl",
+            description: "The ability to have shaved ice during summer in Heian Japan was a remarkable feat of pre-refrigeration technology and social privilege. Ice was harvested during winter from frozen ponds and lakes in the mountains around Kyoto, then stored in specially constructed underground ice houses called 'himuro' (氷室). These ice storage facilities were lined with straw and other insulating materials to preserve the ice through the hot, humid Japanese summer. The ice was cut into blocks and carefully transported to the capital, where it became an incredibly precious commodity available only to the imperial court and highest nobility. When Sei Shōnagon mentions 'shaved ice mixed with liana syrup and put in a new silver bowl,' she's describing what was essentially the world's most luxurious dessert - a treat that required months of preparation, specialized storage technology, and enormous expense. The combination of the rare ice, exotic syrup, and precious silver serving bowl made this refreshment the ultimate symbol of aristocratic elegance and refinement."
         }
     },
     {
         id: "young_bachelor",
         title: "A Young Bachelor",
         text: "A young bachelor of an adventurous nature comes home at dawn, having spent the night in some amorous encounter... Presently he performs his ablutions and changes into a white Court cloak, which he wears without any trousers. Thus attired, he starts reciting the sixth scroll of the Lotus Sutra from memory. A pious gentleman indeed - or so one might think, except that at just this moment the messenger returns and nods encouragingly to his master, who thereupon instantly interrupts his recitation and, with what might strike one as sinful haste, transfers his attention to the lady's reply.",
-        japanese: "若き男の、物の心知りて...ありつるさまにて、法華経の六の巻をいとなまめがたに読みたまふ。",
+        japanese: "",
         theme: "Buddhist devotion intersecting with courtly love",
         tags: ["religious", "court"],
         artifact: {
@@ -446,6 +447,138 @@ const ALL_PASSAGES = [
             url: "https://harvardartmuseums.org/collections/object/303456",
             museum: "Harvard Art Museums",
             connection: "This is exactly the type of Lotus Sutra scroll that Sei Shōnagon's young bachelor would have been reciting! She specifically mentions 'the sixth scroll of the Lotus Sutra' which he recites from memory while distracted by thoughts of his love letter. The elaborate gold and silver decoration on this fragment reflects the luxury of court life where Buddhist devotion and romantic pursuits intertwined."
+        }
+    },
+    {
+        id: "heart_beat_fast",
+        title: "Things That Make Your Heart Beat Fast",
+        text: "Things that make your heart beat fast: To wash your hair, apply your makeup, and put on clothes that are well-scented with incense. Even if you're somewhere no one special will see you, you still feel a heady sense of pleasure inside.",
+        japanese: "",
+        theme: "The private pleasures of beauty rituals and self-care",
+        tags: ["court", "lists"],
+        // New dual-text format with informational content
+        format: "dual-text",
+        informationalText: "During the Heian period, beauty standards for women centered on a striking palette of white, black, and red. Long, glossy hair—often reaching the floor—was paramount, paired with a round, white-powdered face (oshiroi), blackened teeth (ohaguro), and carefully plucked eyebrows with delicate new ones painted high on the forehead in soft, fuzzy \"moth brows\" to balance the prominent forehead created by their long hairstyles.\n\nWomen wore up to twelve layers of robes in the juni-hitoe style, each layer in a different color carefully chosen to create a harmonious aesthetic. To enhance this visual spectacle, courtiers would scent their robes by suspending them over incense burners (takimono) infused with precious aromatic woods—aloeswood, sandalwood, and kyara—sourced from Vietnam, Laos, and other parts of Southeast Asia. These imported materials were so valuable that only the wealthiest could afford them, making scent itself a crucial marker of status and refinement. Olfactory discernment was a basis for entertainment, as people held competitions to create the best scents, a practice called takimono-awase, where courtiers would vie to blend the most sophisticated fragrances.",
+        artifacts: [
+            {
+                id: "HEIAN-MAKEUP-FEATURES",
+                title: "Heian Beauty Standards: Annotated Portrait",
+                date: "Heian period beauty ideals (794-1185)",
+                period: "Heian period",
+                medium: "Historical portrait with annotations",
+                image: "./images/heian-makeup-features.jpg",
+                url: "#",
+                museum: "Historical Reference",
+                connection: "makeup",
+                description: "This annotated portrait illustrates the striking Heian beauty standards that Sei Shōnagon would have followed when 'applying makeup.' The pale complexion was achieved with white face powder (oshiroi), eyebrows were plucked and repainted high on the forehead as delicate 'moth brows,' teeth were blackened (ohaguro), and a small rosebud mouth was painted. These elaborate beauty rituals were central to court life and explain why applying makeup could make one's 'heart beat fast' - it was a transformation into an idealized aesthetic that required skill, time, and expensive materials."
+            },
+            {
+                id: "JUNIHITOE-TWELVE-LAYERS",
+                title: "Twelve-Layer Court Robe (Jūnihitoe)",
+                date: "Heian period tradition (794-1185)",
+                period: "Heian period",
+                medium: "Silk layers in carefully coordinated colors",
+                image: "./images/junihitoe.jpg",
+                url: "#",
+                museum: "Traditional Court Costume",
+                connection: "clothes",
+                description: "Jūni-hitoe was the 12 layered robes worn by the noblewomen of the court. In Heian society, colour symbolism in clothing was especially important, and they wore different combinations of colours in varying seasons. These colours did not reproduce the exact colours of the season, but were meant to evoke the feeling of it by giving these colour combinations poetic names in reference to the flora and fauna of the season. Throughout the book, Shōnagon references many of these combinations, including the cherry-blossom combination, the plum pink combination, the lavender combination, and autumn leaf ochre robes. When Sei Shōnagon writes about putting on 'clothes that are well-scented with incense,' she's referring to these elaborate layered garments that transformed dressing into a poetic ritual of seasonal beauty."
+            },
+            {
+                id: "KYOHAKU-H292-32",
+                title: "Incense Artifact (Kyoto National Museum)",
+                date: "Heian period (794-1185)",
+                period: "Heian period",
+                medium: "Traditional Japanese materials",
+                image: "./images/incense artifact.jpg",
+                url: "https://colbase.nich.go.jp/collection_items/kyohaku/H%E7%94%B292-32?locale=en",
+                museum: "Kyoto National Museum",
+                connection: "incense",
+                description: "This authentic Heian period incense artifact from the Kyoto National Museum represents the sophisticated incense culture that Sei Shōnagon observed. The informational text describes how courtiers would 'scent their robes by suspending them over incense burners (takimono) infused with precious aromatic woods—aloeswood, sandalwood, and kyara—sourced from Vietnam, Laos, and other parts of Southeast Asia.' These imported aromatics were so valuable that only the wealthiest could afford them, making scent itself a crucial marker of status and refinement in Heian court society.",
+                hasLearnMore: true,
+                learnMoreContent: "**Dr. Maiko Behr, Expert in Heian Court Culture:** 'What people don't realize is how central scent was to personal identity in Heian society. When Sei Shōnagon writes about incense, she's describing a world where your fragrance was as important as your appearance.'\n\nIncense culture in Heian Japan was incredibly sophisticated and central to court life. The practice of scenting clothes (takimono) involved suspending garments over special incense burners overnight, allowing the aromatic smoke to permeate the fabric. Different incense blends were associated with different seasons, emotions, and social occasions. The most prized ingredients included aloeswood (jinko), sandalwood (byakudan), and kyara - a particularly rare and expensive variety of aloeswood.\n\n'The economics were staggering,' notes Dr. Behr. 'A single piece of kyara could cost more than a house. Court nobles would literally wear their wealth in the form of scent.' These materials were imported from Southeast Asia at enormous cost, making them symbols of wealth and refinement. Court nobles would compete in incense contests (takimono-awase) where participants had to identify different blends by scent alone, demonstrating their cultural sophistication."
+            }
+        ]
+    },
+    {
+        id: "communication_culture",
+        title: "The Art of Correspondence",
+        // New three-passage format
+        format: "three-passages",
+        passages: [
+            {
+                title: "Infuriating Things",
+                text: "Thinking of one or two changes in the wording after you've sent a <span class=\"quotable-text\" data-artifact-index=\"0\">message</span> to someone, or written and sent off a reply to someone's message."
+            },
+            {
+                title: "Occasions for Anxious Waiting",
+                text: "You become very anxious when you have to make a quick response to someone's <span class=\"quotable-text\" data-artifact-index=\"1\">poem</span>, and you can't come up with anything. If it's a lover there's no particular need to hurry to send a reply, but there are times when circumstances make it necessary. And if it's some exchange with a lady, nothing special, and you feel you can just dash something off, that's precisely when you're inclined to make an unfortunate blunder."
+            },
+            {
+                title: "Things That Make You Feel Nostalgic",
+                text: "On a rainy day when time hangs heavy, searching out an old <span class=\"quotable-text\" data-artifact-index=\"2\">letter</span> that touched you deeply at the time you received it."
+            }
+        ],
+        japanese: "",
+        theme: "Communication anxiety and the social nature of written correspondence",
+        tags: ["court", "lists"],
+        informationalText: "The communication style for the Heian period was heavily reliant upon a letter sending and poetry writing culture. Though when we think of a poem, we might think of something tasteful and out of reach to us now. While, of course, they involved a lot of taste, the sending and receiving of poems then was just like modern texting culture. People would gather to help their friends write poems to their lovers, and evaluate the refinement of the poetry response they received. Poetry was an important signifier of taste and cultural understanding in all relationships, and wit was demonstrated through showing and understanding poetic references from important collections of poetry such as the Kokin Wakashū, or poetry from China written by poets such as Bo Juyi.",
+        artifacts: [
+            {
+                id: "MET-40348-LETTER",
+                title: "Letter Storage Box (Tebako)",
+                date: "Edo period (1615–1868)",
+                period: "Edo period (preserving Heian traditions)",
+                medium: "Lacquered wood with maki-e gold decoration",
+                image: "https://images.metmuseum.org/CRDImages/as/original/DP704172.jpg",
+                url: "https://www.metmuseum.org/art/collection/search/40348",
+                museum: "Metropolitan Museum of Art",
+                connection: "message",
+                description: "Elegant lacquered boxes like this were used to store precious correspondence and letters. When Sei Shōnagon describes the regret of realizing 'one or two changes in the wording after you've sent a message,' she's capturing the permanent nature of written communication. These beautiful containers held the letters that carried relationships, reputations, and emotional connections across the court - making each word choice crucial."
+            },
+            {
+                id: "MET-845083-HEIAN-POETRY",
+                title: "Poems about Plum Blossoms (Heian Period Calligraphy)",
+                date: "Heian period (794–1185)",
+                period: "Heian period",
+                medium: "Ink on dyed paper",
+                image: "https://images.metmuseum.org/CRDImages/as/original/DP-25909-002.jpg",
+                url: "https://www.metmuseum.org/art/collection/search/845083",
+                museum: "Metropolitan Museum of Art",
+                connection: "poem",
+                description: "This authentic Heian period calligraphy by Fujiwara no Yukinari represents exactly the type of poetry that caused such anxiety in Sei Shōnagon's world. When she describes becoming 'very anxious when you have to make a quick response to someone's poem,' she's referring to the intense social pressure of poetic correspondence. Like modern texting, these poems were evaluated for wit, cultural knowledge, and emotional intelligence - with your reputation hanging on every carefully chosen word."
+            },
+            {
+                id: "HEIAN-LETTER-NOSTALGIA",
+                title: "The Preservation of Letters",
+                date: "Heian period tradition (794-1185)",
+                period: "Heian period cultural practice",
+                medium: "Paper, calligraphy, emotional memory",
+                image: "https://images.metmuseum.org/CRDImages/as/original/DP704172.jpg",
+                url: "#",
+                museum: "Cultural Practice",
+                connection: "letter",
+                description: "The practice of keeping and re-reading old letters was central to Heian emotional life. When Sei Shōnagon writes about 'searching out an old letter that touched you deeply,' she's describing how correspondence became treasured artifacts of relationships. Like saving meaningful text conversations today, these letters were kept in beautiful boxes and revisited during quiet moments, allowing people to relive emotional connections and trace the evolution of relationships through written words."
+            }
+        ]
+    },
+    {
+        id: "infuriating_things",
+        title: "Infuriating Things",
+        text: "You've just settled sleepily into bed when a mosquito announces itself with that thin little wail. A man you've had to conceal in some unsatisfactory hiding place who begins to snore. And I hate people who don't close a door that they've opened to go in or out.",
+        japanese: "",
+        theme: "Daily irritations and breaches of social etiquette",
+        tags: ["court", "lists"],
+        artifact: {
+            id: "HEIAN-COURT-ETIQUETTE",
+            title: "Heian Court Etiquette and Daily Life",
+            date: "Heian period (794-1185)",
+            period: "Heian period",
+            medium: "Social customs and architectural elements",
+            image: "./images/roomlayout.jpg",
+            url: "#",
+            museum: "Cultural Practice",
+            description: "In Heian times, the courtiers of the palace lived in incredibly tight quarters, with very little privacy. Rooms weren't divided by walls, but instead, a thin fabric curtain-like screen called a 'kicho', hung from a wooden rod supported by two beams which partitioned a long room into several smaller rooms. If the guest you're trying to hide begins to snore, then everyone around you would have been able to hear. Privacy was very hard to come by in the court! This explains Sei Shōnagon's frustration - in such close quarters, every sound carried, every open door disrupted the delicate balance of shared space, and even the thin wail of a mosquito could disturb multiple people. Her irritations reveal the constant social negotiations required to maintain harmony when living in such intimate proximity to others."
         }
     }
 ];
@@ -468,6 +601,7 @@ function displayCurrentPassage() {
     // Handle both single artifact and multiple artifacts
     const artifacts = passage.artifacts || [passage.artifact];
     const isMultiArtifact = passage.artifacts && passage.artifacts.length > 1;
+    const isThreePassages = passage.format === 'three-passages';
     
     let artifactHTML = '';
     
@@ -490,6 +624,15 @@ function displayCurrentPassage() {
                                 ${artifact.medium}
                             </div>
                             <div class="artifact-description">${artifact.description}</div>
+                            ${artifact.hasLearnMore ? `
+                                <button class="learn-more-btn-small" onclick="toggleLearnMore('${artifact.id}')">
+                                    Speak to Expert →
+                                </button>
+                                <div class="learn-more-content" id="learn-more-${artifact.id}" style="display: none;">
+                                    <div class="learn-more-title">Expert Insights: Heian Incense Culture</div>
+                                    <div class="learn-more-text">${artifact.learnMoreContent}</div>
+                                </div>
+                            ` : ''}
                             <a href="${artifact.url}" target="_blank" class="museum-link-small">
                                 ${artifact.museum} →
                             </a>
@@ -515,6 +658,16 @@ function displayCurrentPassage() {
                     ${artifact.connection || artifact.description}
                 </div>
                 
+                ${artifact.hasLearnMore ? `
+                    <button class="learn-more-btn" onclick="toggleLearnMore('${artifact.id}')">
+                        Learn More About Incense →
+                    </button>
+                    <div class="learn-more-content" id="learn-more-${artifact.id}" style="display: none;">
+                        <div class="learn-more-title">Deep Dive: Incense Culture</div>
+                        <div class="learn-more-text">${artifact.learnMoreContent}</div>
+                    </div>
+                ` : ''}
+                
                 <a href="${artifact.url}" target="_blank" class="museum-link">
                     View in ${artifact.museum} →
                 </a>
@@ -523,8 +676,14 @@ function displayCurrentPassage() {
     }
     
     // Create enhanced passage text with highlighted quotes
-    let enhancedText = passage.text;
-    if (isMultiArtifact) {
+    let enhancedText = passage.text || '';
+    let enhancedPassages = [];
+    let enhancedInformationalText = '';
+    
+    if (isThreePassages) {
+        // Handle three-passage format - highlighting is already in the passage text
+        enhancedPassages = passage.passages;
+    } else if (isMultiArtifact || passage.format === 'dual-text') {
         artifacts.forEach((artifact, index) => {
             const connection = artifact.connection;
             if (enhancedText.includes(connection)) {
@@ -536,15 +695,55 @@ function displayCurrentPassage() {
         });
     }
     
+    // Handle informational content for dual-text and three-passages formats
+    if ((passage.format === 'dual-text' || passage.format === 'three-passages') && passage.informationalText) {
+        enhancedInformationalText = passage.informationalText;
+        artifacts.forEach((artifact, index) => {
+            const connection = artifact.connection;
+            if (enhancedInformationalText.includes(connection)) {
+                enhancedInformationalText = enhancedInformationalText.replace(
+                    new RegExp(`\\b${connection}\\b`, 'g'), 
+                    `<span class="quotable-text" data-artifact-index="${index}">${connection}</span>`
+                );
+            }
+        });
+    }
+    
     // Audio feature temporarily disabled
     let audioControlsHTML = '';
+
+    // Create informational text section if it exists
+    let informationalSection = '';
+    if ((passage.format === 'dual-text' || passage.format === 'three-passages') && enhancedInformationalText) {
+        const titleText = passage.format === 'three-passages' ? 'Cultural Context' : 'Historical Context';
+        informationalSection = `
+            <div class="informational-text-section">
+                <div class="informational-title">${titleText}</div>
+                <div class="informational-text">${enhancedInformationalText.replace(/\n\n/g, '</p><p>').replace(/^/, '<p>').replace(/$/, '</p>')}</div>
+            </div>
+        `;
+    }
+    
+    // Create passage content based on format
+    let passageContent = '';
+    if (isThreePassages) {
+        passageContent = enhancedPassages.map(p => `
+            <div class="mini-passage">
+                <div class="mini-passage-title">${p.title}</div>
+                <div class="mini-passage-text">${p.text}</div>
+            </div>
+        `).join('');
+    } else {
+        passageContent = `<div class="passage-text">${enhancedText}</div>`;
+    }
 
     contentArea.innerHTML = `
         <div class="passage-panel">
             <div class="passage-title">${passage.title}</div>
             ${audioControlsHTML}
-            <div class="passage-text">${enhancedText}</div>
-            <div class="passage-text japanese">${passage.japanese}</div>
+            ${passageContent}
+            
+            ${informationalSection}
             
             <div class="passage-tags">
                 ${passage.tags.map(tag => `<span class="passage-tag">${tag}</span>`).join('')}
@@ -555,7 +754,7 @@ function displayCurrentPassage() {
     `;
     
     // Add interactive highlighting events
-    if (isMultiArtifact) {
+    if (isMultiArtifact || isThreePassages || passage.format === 'dual-text') {
         setupHighlightingInteractions();
     }
 }
@@ -716,6 +915,22 @@ document.addEventListener('keydown', function(e) {
         nextPassage();
     }
 });
+
+// Learn More toggle function
+function toggleLearnMore(artifactId) {
+    const learnMoreContent = document.getElementById(`learn-more-${artifactId}`);
+    const button = document.querySelector(`[onclick="toggleLearnMore('${artifactId}')"]`);
+    
+    if (learnMoreContent.style.display === 'none') {
+        learnMoreContent.style.display = 'block';
+        button.textContent = 'Show Less ↑';
+        button.classList.add('expanded');
+    } else {
+        learnMoreContent.style.display = 'none';
+        button.textContent = 'Learn More About Incense →';
+        button.classList.remove('expanded');
+    }
+}
 
 // Initialize page when DOM loads
 document.addEventListener('DOMContentLoaded', initializePage);

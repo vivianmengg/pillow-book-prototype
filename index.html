@@ -259,6 +259,136 @@
             line-height: 1.6;
         }
 
+        /* Informational text section for dual-text format */
+        .informational-text-section {
+            background: rgba(139, 111, 92, 0.05);
+            border-radius: 20px;
+            padding: 25px;
+            margin: 30px 0;
+            border: 1px solid rgba(139, 111, 92, 0.1);
+        }
+
+        .informational-title {
+            color: #8b6f5c;
+            font-size: 1.1em;
+            font-weight: 500;
+            font-style: italic;
+            margin-bottom: 15px;
+            border-bottom: 1px solid rgba(139, 111, 92, 0.2);
+            padding-bottom: 8px;
+        }
+
+        .informational-text {
+            font-size: 1em;
+            line-height: 1.7;
+            color: #5a4a42;
+            text-align: justify;
+        }
+
+        .informational-text p {
+            margin-bottom: 15px;
+        }
+
+        .informational-text p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Three-passage format styles */
+        .mini-passage {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 3px solid rgba(139, 111, 92, 0.3);
+        }
+
+        .mini-passage-title {
+            color: #8b6f5c;
+            font-size: 1em;
+            font-weight: 500;
+            font-style: italic;
+            margin-bottom: 10px;
+            border-bottom: 1px solid rgba(139, 111, 92, 0.2);
+            padding-bottom: 5px;
+        }
+
+        .mini-passage-text {
+            font-size: 1.1em;
+            line-height: 1.7;
+            color: #5a4a42;
+            text-align: justify;
+        }
+
+        /* Learn More button and content styles */
+        .learn-more-btn, .learn-more-btn-small {
+            background: linear-gradient(135deg, rgba(139, 111, 92, 0.9), rgba(107, 84, 73, 0.9));
+            color: #f7f5f4;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: 'EB Garamond', serif;
+            font-size: 0.9em;
+            font-style: italic;
+            margin: 15px 0;
+            transition: all 0.3s ease;
+            display: block;
+        }
+
+        .learn-more-btn-small {
+            padding: 6px 12px;
+            font-size: 0.75em;
+            border-radius: 15px;
+            margin: 8px 0;
+        }
+
+        .learn-more-btn:hover, .learn-more-btn-small:hover {
+            background: linear-gradient(135deg, rgba(139, 111, 92, 1), rgba(107, 84, 73, 1));
+            transform: translateY(-1px);
+            box-shadow: 0 4px 15px rgba(139, 111, 92, 0.3);
+        }
+
+        .learn-more-btn.expanded, .learn-more-btn-small.expanded {
+            background: linear-gradient(135deg, rgba(107, 84, 73, 0.9), rgba(139, 111, 92, 0.9));
+        }
+
+        .learn-more-content {
+            background: rgba(139, 111, 92, 0.05);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 3px solid rgba(139, 111, 92, 0.3);
+            animation: fadeInUp 0.3s ease forwards;
+        }
+
+        .learn-more-title {
+            color: #8b6f5c;
+            font-size: 1.1em;
+            font-weight: 500;
+            font-style: italic;
+            margin-bottom: 12px;
+            border-bottom: 1px solid rgba(139, 111, 92, 0.2);
+            padding-bottom: 6px;
+        }
+
+        .learn-more-text {
+            color: #5a4a42;
+            font-size: 0.95em;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
         .passage-tags {
             margin-top: 25px;
             display: flex;
@@ -521,6 +651,7 @@
             box-shadow: 0 2px 6px rgba(255, 182, 193, 0.15);
         }
 
+
         @keyframes slideInUp {
             from { 
                 opacity: 0; 
@@ -631,6 +762,8 @@
             <h1>pillow book</h1>
             <div class="subtitle">material traces of heian court life</div>
             <div class="author-info">sei shōnagon • c. 966 – c. 1017</div>
+            <a href="activity.html" class="nav-link">write your own lists →</a>
+            <a href="recommendations.html" class="nav-link">sei's recommendations ✦</a>
         </header>
 
         <div class="passage-navigation">

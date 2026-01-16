@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pillow book • write your lists</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'EB Garamond', serif;
+            background: linear-gradient(135deg, #f7f5f4 0%, #ede6e3 30%, #e8ddd8 100%);
+            color: #4a3c36;
+            min-height: 100vh;
+            overflow-x: hidden;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .header h1 {
+            font-size: 3.5em;
+            color: #8b6f5c;
+            margin-bottom: 15px;
+            font-weight: 500;
+            font-style: italic;
+        }
+
+        .header .subtitle {
+            font-size: 1.2em;
+            color: #6b5449;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .header .description {
+            font-size: 1em;
+            color: #5a4a42;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .nav-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #8b6f5c;
+            text-decoration: none;
+            padding: 10px 20px;
+            background: rgba(139, 111, 92, 0.1);
+            border-radius: 25px;
+            font-family: 'DM Mono', monospace;
+            font-size: 0.8em;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            background: rgba(139, 111, 92, 0.2);
+            text-decoration: none;
+            transform: translateY(-1px);
+        }
+
+        .activity-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .list-category {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(15px);
+            border-radius: 25px;
+            padding: 30px;
+            box-shadow: 0 15px 50px rgba(139, 111, 92, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.4s ease;
+        }
+
+        .list-category:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 20px 60px rgba(139, 111, 92, 0.15);
+        }
+
+        .category-title {
+            font-size: 1.8em;
+            color: #8b6f5c;
+            font-weight: 500;
+            font-style: italic;
+            margin-bottom: 20px;
+            text-align: center;
+            border-bottom: 2px solid rgba(139, 111, 92, 0.2);
+            padding-bottom: 10px;
+        }
+
+        .sticky-notes-row {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+        }
+
+        .sticky-note {
+            min-width: 200px;
+            background: linear-gradient(135deg, #fff8e1 0%, #fff3c4 100%);
+            border-radius: 16px;
+            padding: 15px;
+            box-shadow: 0 8px 32px rgba(139, 111, 92, 0.12), 0 2px 8px rgba(139, 111, 92, 0.08);
+            transform: rotate(1deg);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .sticky-note:nth-child(2n) {
+            transform: rotate(-1deg);
+            background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%);
+            box-shadow: 0 8px 32px rgba(139, 111, 92, 0.12), 0 2px 8px rgba(139, 111, 92, 0.08);
+        }
+
+        .sticky-note:nth-child(3n) {
+            transform: rotate(0.5deg);
+            background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%);
+            box-shadow: 0 8px 32px rgba(139, 111, 92, 0.12), 0 2px 8px rgba(139, 111, 92, 0.08);
+        }
+
+        .sticky-note:hover {
+            transform: rotate(0deg) translateY(-2px);
+            box-shadow: 0 12px 40px rgba(139, 111, 92, 0.18), 0 4px 12px rgba(139, 111, 92, 0.1);
+        }
+
+        .sticky-note.sei-note {
+            border-top: 3px solid #8b6f5c;
+        }
+
+        .sticky-note.user-note {
+            border-top: 3px solid #4caf50;
+            cursor: pointer;
+        }
+        
+        .sticky-note.user-note.editable {
+            border-top: 3px solid #66bb6a;
+            box-shadow: 0 8px 32px rgba(102, 187, 106, 0.2), 0 2px 8px rgba(102, 187, 106, 0.12);
+        }
+        
+        .sticky-note.user-note:not(.editable) {
+            cursor: default;
+            opacity: 0.85;
+        }
+
+        .note-header {
+            font-family: 'DM Mono', monospace;
+            font-size: 0.7em;
+            color: #666;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .note-content {
+            font-size: 0.9em;
+            line-height: 1.5;
+            color: #4a3c36;
+        }
+
+        .note-content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .note-content li {
+            margin-bottom: 5px;
+            position: relative;
+            padding-left: 12px;
+        }
+
+        .note-content li:before {
+            content: "•";
+            color: #8b6f5c;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .add-note-btn {
+            min-width: 200px;
+            height: 150px;
+            background: linear-gradient(135deg, rgba(139, 111, 92, 0.1) 0%, rgba(139, 111, 92, 0.05) 100%);
+            border: 2px dashed rgba(139, 111, 92, 0.3);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: #8b6f5c;
+            font-style: italic;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .add-note-btn:hover {
+            background: linear-gradient(135deg, rgba(139, 111, 92, 0.15) 0%, rgba(139, 111, 92, 0.08) 100%);
+            border-color: rgba(139, 111, 92, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .add-note-btn .icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+        }
+
+        .modal-content {
+            background: linear-gradient(135deg, #f7f5f4 0%, #ede6e3 100%);
+            margin: 5% auto;
+            padding: 40px;
+            border-radius: 25px;
+            width: 90%;
+            max-width: 600px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+
+        .modal-header {
+            font-size: 1.5em;
+            color: #8b6f5c;
+            margin-bottom: 20px;
+            font-style: italic;
+            text-align: center;
+        }
+
+        .modal textarea {
+            width: 100%;
+            min-height: 200px;
+            border: 2px solid rgba(139, 111, 92, 0.2);
+            border-radius: 15px;
+            padding: 15px;
+            font-family: 'EB Garamond', serif;
+            font-size: 1em;
+            line-height: 1.6;
+            background: rgba(255, 255, 255, 0.8);
+            color: #4a3c36;
+            resize: vertical;
+        }
+
+        .modal textarea:focus {
+            outline: none;
+            border-color: rgba(139, 111, 92, 0.5);
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        .modal-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .modal-btn {
+            padding: 10px 25px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: 'EB Garamond', serif;
+            font-size: 1em;
+            transition: all 0.3s ease;
+        }
+
+        .modal-btn.save {
+            background: linear-gradient(135deg, rgba(139, 111, 92, 0.9), rgba(107, 84, 73, 0.9));
+            color: #f7f5f4;
+        }
+
+        .modal-btn.save:hover {
+            background: linear-gradient(135deg, rgba(139, 111, 92, 1), rgba(107, 84, 73, 1));
+            transform: translateY(-1px);
+        }
+
+        .modal-btn.cancel {
+            background: rgba(139, 111, 92, 0.1);
+            color: #8b6f5c;
+        }
+
+        .modal-btn.cancel:hover {
+            background: rgba(139, 111, 92, 0.2);
+        }
+
+        .close {
+            color: #8b6f5c;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            position: absolute;
+            top: 15px;
+            right: 20px;
+        }
+
+        .close:hover {
+            color: #6b5449;
+        }
+
+        @media (max-width: 768px) {
+            .activity-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .sticky-notes-row {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .sticky-note, .add-note-btn {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>write your lists</h1>
+            <div class="subtitle">inspired by sei shōnagon's observations</div>
+            <div class="description">
+                Sei Shōnagon filled her pillow book with lists of things that delighted, frustrated, and moved her. 
+                Now it's your turn to observe the world around you and create your own lists in her spirit.
+            </div>
+            <a href="index.html" class="nav-link">← back to pillow book</a>
+        </div>
+
+        <div class="activity-grid" id="activityGrid">
+            <!-- Activity categories will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Modal for adding new lists -->
+    <div id="listModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header" id="modalTitle">Add Your List</div>
+            
+            <div style="margin-bottom: 15px;">
+                <input type="text" id="authorName" placeholder="Your name (optional)" 
+                       style="width: 100%; padding: 10px; border: 2px solid rgba(139, 111, 92, 0.2); border-radius: 10px; font-family: 'EB Garamond', serif; font-size: 1em; background: rgba(255, 255, 255, 0.8);">
+            </div>
+            
+            <textarea id="listInput" placeholder="Write your list here... Each item on a new line."></textarea>
+            <div class="modal-buttons">
+                <button class="modal-btn save" onclick="saveUserList()">Save List</button>
+                <button class="modal-btn cancel" onclick="closeModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Firebase -->
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js';
+        import { getFirestore, collection, getDocs, addDoc, updateDoc, doc, query, orderBy } from 'https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js';
+
+        // Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDKtyMPLDhoSoRzc1AVnep9FWGn_h8dbQ0",
+            authDomain: "pillow-book-project.firebaseapp.com",
+            projectId: "pillow-book-project",
+            storageBucket: "pillow-book-project.firebasestorage.app",
+            messagingSenderId: "181894990456",
+            appId: "1:181894990456:web:17495623afab0bcb127b8d"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+
+        // Make Firebase functions available globally
+        window.firebaseDB = db;
+        window.firebaseCollection = collection;
+        window.firebaseGetDocs = getDocs;
+        window.firebaseAddDoc = addDoc;
+        window.firebaseUpdateDoc = updateDoc;
+        window.firebaseDoc = doc;
+        window.firebaseQuery = query;
+        window.firebaseOrderBy = orderBy;
+
+        // Signal that Firebase is ready
+        window.firebaseReady = true;
+        window.dispatchEvent(new Event('firebaseReady'));
+    </script>
+    <script src="activity.js"></script>
+</body>
+</html>
