@@ -29,17 +29,17 @@ const LOCATIONS = [
         period: "Founded 686",
         image: "",
         shortDescription: "Sacred pilgrimage destination in Nara mentioned by Sei",
-        description: "Hasedera Temple in Nara Prefecture was a major pilgrimage site for Heian court aristocracy. Though outside Kyoto, it was frequently visited by court ladies like Sei Shōnagon and appears in classical literature including The Tale of Genji. The temple's massive wooden Kannon statue drew pilgrims from the capital.",
-        seiQuote: "I wrote of the terror I felt working my way up this slope, gripping the rails of a log staircase, the roar of the water in my ears.",
+        description: "Hasedera Temple in Nara Prefecture was a major pilgrimage site for Heian court aristocracy. The Pillow Book includes a section titled 'Pilgrimage to the Hasedera' describing the arduous journey from the capital. Court ladies like Sei Shōnagon and Murasaki Shikibu both wrote about pilgrimages to this sacred site.",
+        seiQuote: "The Pillow Book includes a section on pilgrimage to Hasedera, describing the temple's famous covered log staircase and the sounds of the rushing water below.",
         highlights: [
             "11-meter tall wooden Kannon statue",
             "Popular pilgrimage destination for court nobles",
-            "Mountain temple setting in Nara",
-            "Featured in classical Japanese literature"
+            "Famous covered log staircase (399 steps)",
+            "Featured in The Pillow Book and Tale of Genji"
         ],
-        currentStatus: "Active temple, UNESCO World Heritage consideration",
+        currentStatus: "Active temple, head temple of Shingon Buzan sect",
         visitInfo: "Located in Sakurai City, Nara Prefecture - about 1 hour from Kyoto",
-        coordinates: { lat: 34.5404, lng: 135.9972 }, // Hase-dera in Nara
+        coordinates: { lat: 34.5404, lng: 135.9972 },
         placeName: "Hasedera Temple"
     },
     {
@@ -89,17 +89,17 @@ const LOCATIONS = [
         period: "Natural landmark",
         image: "",
         shortDescription: "Famous mountain of poets in Arashiyama",
-        description: "Mount Ogura in the Arashiyama area of Kyoto is famous for its association with classical poetry. This mountain was closely connected to poets and poetry throughout Japanese history, making it exactly the type of natural landmark that would appear in Heian court observations.",
-        seiQuote: "Though not mentioned in my writings, this mountain became sacred to poets, and I am honored to be included among them in the Ogura Hyakunin Isshu collection.",
+        description: "Mount Ogura in the Arashiyama area of Kyoto is famous for its association with classical poetry. In the 13th century, Fujiwara no Teika compiled the Ogura Hyakunin Isshu poetry anthology at his villa here, which included one of Sei Shōnagon's poems. Though she did not write about this mountain directly, her appreciation for peaks appears in her lists.",
+        seiQuote: "Peaks: Yuzuruha Peak. Amida Peak. Iyataka Peak.",
         highlights: [
-            "Historic center of poetic inspiration",
-            "Location of famous poetry compilation",
+            "Site where Ogura Hyakunin Isshu was compiled",
+            "Sei Shōnagon's poem (#62) included in the anthology",
             "Views over the Heian capital",
             "Autumn colors celebrated in literature"
         ],
         currentStatus: "Natural landmark in Kyoto's Arashiyama area",
         visitInfo: "Accessible from Saga-Arashiyama Station, famous for autumn colors",
-        coordinates: { lat: 35.0089, lng: 135.6753 }, // Corrected to Arashiyama area
+        coordinates: { lat: 35.0089, lng: 135.6753 },
         placeName: "Arashiyama Kyoto"
     },
     {
@@ -190,7 +190,7 @@ const LOCATIONS = [
         image: "",
         shortDescription: "Sacred shrine with thousands of vermillion torii gates",
         description: "Fushimi Inari Shrine, founded in 711, became increasingly important during the Heian period as the shrine dedicated to Inari, the Shinto deity of rice and prosperity. The thousands of vermillion torii gates winding up the mountain create one of Japan's most mystical religious landscapes, representing the kind of sacred beauty that would have moved court observers like Sei Shōnagon.",
-        seiQuote: "Starting at dawn, by mid-morning the heat was rising and I was only halfway up. I was hot, tired, and felt thoroughly sorry for myself... Just then a woman, who looked about thirty or so, came down from the upper shrine. 'I'm going up seven times today', she said to the people on the path.",
+        seiQuote: "You have an urge to go on a pilgrimage to Inari Shrine, and as you're laboriously gasping your way up the steep mountainside to the middle shrine, you're filled with admiration to see others who've obviously started behind you go climbing straight up without the least effort; when you arrive, there they stand, already at their worship.",
         highlights: [
             "Thousands of vermillion torii gates",
             "Sacred to Inari, deity of rice and prosperity", 
@@ -229,8 +229,8 @@ const LOCATIONS = [
         period: "Founded 768, expanded during Heian period",
         image: "",
         shortDescription: "Sacred shrine of the powerful Fujiwara family",
-        description: "Kasuga Taisha in Nara was the tutelary shrine of the Fujiwara clan, the most powerful court family during Sei Shōnagon's time. Empress Teishi, whom Sei served, was from the Fujiwara family. The imperial court made annual pilgrimages to Kasuga, and Sei would have accompanied these sacred journeys. The shrine's thousands of stone and bronze lanterns created a mystical atmosphere that would have deeply moved someone of Sei's aesthetic sensibility.",
-        seiQuote: "While I wrote often of shrine visits and festivals, Kasuga Taisha was the distant shrine of the Fujiwara clan, whose power shaped the court where I served.",
+        description: "Kasuga Taisha in Nara was the tutelary shrine of the Fujiwara clan, the most powerful court family during Sei Shōnagon's time. Empress Teishi, whom Sei served, was from the Fujiwara family. Though Sei did not write about Kasuga directly, her writings are filled with observations of shrine festivals and the Fujiwara's influence at court.",
+        seiQuote: "I had especially fond recollections of exhilarating events like the Kamo High Priestess's procession, or the departure procession of the Regent.",
         highlights: [
             "Tutelary shrine of the Fujiwara clan",
             "Annual imperial court pilgrimages",
@@ -239,27 +239,27 @@ const LOCATIONS = [
         ],
         currentStatus: "Active shrine, UNESCO World Heritage Site",
         visitInfo: "Famous for its thousands of lanterns and sacred deer park, maintaining traditions from Sei's era",
-        coordinates: { lat: 34.6180, lng: 135.8465 }, // Kasuga Taisha Shrine
+        coordinates: { lat: 34.6180, lng: 135.8465 },
         placeName: "Kasuga Taisha"
     },
     {
         id: "sennyu_temple",
         name: "Sennyū-ji Temple",
         category: "temple",
-        period: "Founded 1202, but in area of earlier temples",
+        period: "Origins in 9th century, rebuilt 1218",
         image: "",
-        shortDescription: "Temple near the mountain where Sei's father lived",
-        description: "Sennyū-ji Temple sits in the mountainous area south of Kyoto where Sei Shōnagon's father, Kiyowara no Motosuke, had his residence. Though the current temple was founded after Sei's time, this sacred mountain area was already home to hermitages and religious retreats during the Heian period. The temple's location in the wooded hills represents the contemplative landscape that shaped Sei's early literary sensibilities and her deep appreciation for seasonal changes in nature.",
-        seiQuote: "Though not mentioned in my court writings, it was near temples like this in the mountains where I spent my final years, after the glories of the palace had faded.",
+        shortDescription: "Temple near Sei Shōnagon's father's mountain villa",
+        description: "Sennyū-ji Temple sits at the base of Mount Tsukinowa, where Sei Shōnagon's father Kiyowara no Motosuke had his mountain villa. Scholars believe Sei may have spent her later years in seclusion here. A monument inscribed with her poem now stands on the temple grounds, near the tomb of Empress Teishi whom she served. Though Sei did not write about this area directly, temple retreats feature prominently in her observations.",
+        seiQuote: "It's delightful to be on retreat at a temple over the New Year when it's terribly cold and there's a feeling of snow in the freezing air.",
         highlights: [
-            "Near Sei Shōnagon's family residence area",
-            "Sacred mountain landscape of her youth",
-            "Imperial family temple connections",
-            "Contemplative forest setting"
+            "Site of Sei Shōnagon's father's mountain villa",
+            "Possible location of Sei's final years",
+            "Near tomb of Empress Teishi",
+            "Monument to Sei Shōnagon on grounds"
         ],
-        currentStatus: "Active temple with imperial connections",
-        visitInfo: "Known as the imperial family temple, maintaining the sacred mountain atmosphere of Sei's era",
-        coordinates: { lat: 34.9537, lng: 135.7853 }, // Sennyū-ji Temple
+        currentStatus: "Active temple, imperial mausoleum site",
+        visitInfo: "Known as the imperial family temple, with monument commemorating Sei Shōnagon",
+        coordinates: { lat: 34.9537, lng: 135.7853 },
         placeName: "Sennyu-ji Temple"
     }
 ];
