@@ -152,11 +152,11 @@ const ALL_PASSAGES = [
                 date: "Heian period style (original period: 794-1185)",
                 period: "Heian period reconstruction",
                 medium: "Silk, wooden frame",
-                image: "https://lh3.googleusercontent.com/ci/AL18g_TgyiYnhsbpogHpDfsOB-AXHqAzZmDdU03A21KkW5A7CEz0TK4eZu0kf5fDVlmORnxylbWN",
+                image: "./images/kicho.png",
                 url: "https://artsandculture.google.com/asset/room-dividing-standing-curtain-kich-heian-period-costumes/qwFwxqF2EMZaMQ",
                 museum: "Kyoto Women's University, Lifestyle Design Laboratory",
                 connection: "stays with him inside his curtain-dais",
-                description: "This authentic Heian period kichō (curtain-dais) is exactly the type of portable privacy screen mentioned in the passage. When the former maid-of-honour becomes an Imperial Prince's nurse, she 'stays with him inside his curtain-dais' - the kichō provided essential privacy and status separation in aristocratic spaces. These elegant silk-and-wood structures were crucial furniture pieces that defined social boundaries and created intimate spaces within the formal court environment."
+                description: "This replica kichō (curtain-dais), reconstructed using traditional Heian-period techniques, shows the type of portable privacy screen mentioned in the passage. When the former maid-of-honour becomes an Imperial Prince's nurse, she 'stays with him inside his curtain-dais' - the kichō provided essential privacy and status separation in aristocratic spaces. These elegant silk-and-wood structures were crucial furniture pieces that defined social boundaries and created intimate spaces within the formal court environment."
             },
             {
                 id: "MET-502124",
