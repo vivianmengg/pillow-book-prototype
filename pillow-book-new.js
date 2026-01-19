@@ -4,23 +4,62 @@
 // Chronological array of all passages as they appear in the book
 const ALL_PASSAGES = [
     {
-        id: "spring_dawn",
-        title: "In spring, the dawn",
-        text: "In spring, the dawn - when the slowly paling mountain rim is tinged with red, and wisps of faintly crimson-purple cloud float in the sky.",
+        id: "four_seasons",
+        title: "The Four Seasons",
+        text: "In spring, the dawn - when the slowly paling mountain rim is tinged with red, and wisps of faintly crimson-purple cloud float in the sky.\n\nIn summer, the nights - not only when the moon shines, but on dark nights too, as the fireflies flit to and fro, and even when it rains, how beautiful it is!\n\nIn autumn, the evening - the blazing sun has sunk very close to the mountain rim, and now even the crows, in threes and fours or twos and threes, hurrying to their roost, are a moving sight. Still more enchanting is the sight of a string of wild geese in the distant sky, very tiny. And oh how inexpressible, when the sun has sunk, to hear in the growing darkness the wind, and the song of autumn insects.\n\nIn winter, the early morning - if snow is falling, of course, it's unutterably delightful, but it's perfect too if there's a pure white frost, or even just when it's very cold, and they hasten to build up the fires in the braziers and carry in fresh charcoal. But it's unpleasant, as the day draws on and the air grows warmer, how the brazier fire dies down to white ash.",
         japanese: "",
-        theme: "The fleeting beauty of dawn moments",
+        theme: "The opening passage: each season's most beautiful moment",
         tags: ["seasons"],
-        artifact: {
-            id: "MET-36935",
-            title: "Hara: Mount Fuji in the Morning (Hara, Asa no Fuji)",
-            date: "ca. 1833–34",
-            period: "Edo period (1615–1868)",
-            medium: "Polychrome woodblock print; ink and color on paper",
-            image: "https://images.metmuseum.org/CRDImages/as/original/DP122187.jpg",
-            url: "https://www.metmuseum.org/art/collection/search/36935",
-            museum: "Metropolitan Museum of Art",
-            description: "Hiroshige's masterful print captures exactly what Sei Shōnagon found most beautiful about spring dawns - the gentle morning light illuminating mountain peaks with subtle colors. The soft gradations from dark to light in the sky perfectly embody her observation that 'In spring it is the dawn that is most beautiful... the faintly colored mountains.' This artwork shows how Japanese artists continued to celebrate the same ephemeral dawn beauty that enchanted Heian court observers centuries earlier."
-        }
+        artifacts: [
+            {
+                id: "MET-36935",
+                title: "Hara: Mount Fuji in the Morning (Hara, Asa no Fuji)",
+                date: "ca. 1833–34",
+                period: "Edo period (1615–1868)",
+                medium: "Polychrome woodblock print; ink and color on paper",
+                image: "https://images.metmuseum.org/CRDImages/as/original/DP122187.jpg",
+                url: "https://www.metmuseum.org/art/collection/search/36935",
+                museum: "Metropolitan Museum of Art",
+                connection: "spring",
+                description: "Hiroshige's masterful print captures exactly what Sei Shōnagon found most beautiful about spring dawns - the gentle morning light illuminating mountain peaks with subtle colors. The soft gradations from dark to light in the sky perfectly embody her observation about the slowly paling mountain rim tinged with red."
+            },
+            {
+                id: "MET-36630",
+                title: "Catching Fireflies (Hotaru gari)",
+                date: "ca. 1796–97",
+                period: "Edo period (1615–1868)",
+                medium: "Triptych of polychrome woodblock prints; ink and color on paper",
+                image: "https://images.metmuseum.org/CRDImages/as/original/DP144584.jpg",
+                url: "https://www.metmuseum.org/art/collection/search/36630",
+                museum: "Metropolitan Museum of Art",
+                connection: "summer",
+                description: "Utamaro's enchanting triptych perfectly captures the summer night magic that Sei Shōnagon describes. The print shows elegant figures catching fireflies in the darkness, bringing to life her words about how beautiful it is when 'fireflies flit to and fro' on summer nights."
+            },
+            {
+                id: "MET-36742",
+                title: "Wild Geese Flying under the Full Moon",
+                date: "ca. 1833",
+                period: "Edo period (1615–1868)",
+                medium: "Woodblock print; ink and color on paper",
+                image: "https://images.metmuseum.org/CRDImages/as/original/DP121523.jpg",
+                url: "https://www.metmuseum.org/art/collection/search/36742",
+                museum: "Metropolitan Museum of Art",
+                connection: "autumn",
+                description: "Hiroshige's print captures 'the sight of a string of wild geese in the distant sky, very tiny' that Sei Shōnagon found so enchanting about autumn evenings. The print includes the poem: 'Will there ever again be such a marvelous night! Wild geese against the moon.'"
+            },
+            {
+                id: "MET-56915",
+                title: "Evening Snow at Kanbara",
+                date: "ca. 1833–34",
+                period: "Edo period (1615–1868)",
+                medium: "Woodblock print; ink and color on paper",
+                image: "https://images.metmuseum.org/CRDImages/as/original/DP109333.jpg",
+                url: "https://www.metmuseum.org/art/collection/search/56915",
+                museum: "Metropolitan Museum of Art",
+                connection: "winter",
+                description: "One of Hiroshige's most celebrated prints from the Fifty-three Stations of the Tōkaidō, this scene of falling snow perfectly embodies Sei Shōnagon's 'unutterably delightful' winter mornings. The deep quiet of the snowy landscape evokes the cold stillness she describes before the braziers are lit."
+            }
+        ]
     },
     {
         id: "new_year_delights",
@@ -390,25 +429,6 @@ const ALL_PASSAGES = [
                 description: "This luxurious kosode features the tachibana (mandarin orange tree) that Sei Shōnagon lists among her favored trees. The embroidered design shows the tree bearing both fruit and flowers, capturing exactly the kind of aesthetic appeal she found in orange trees. In Japanese culture, tachibana symbolizes longevity and good fortune - qualities that align with her appreciation for trees that offered both visual beauty and cultural significance."
             }
         ]
-    },
-    {
-        id: "summer_nights",
-        title: "In Summer the Nights",
-        text: "In summer the nights. Not only when the moon shines, but on dark nights too, as the fireflies flit to and fro, and even when it rains, how beautiful it is!",
-        japanese: "",
-        theme: "Nocturnal summer beauty and illumination",
-        tags: ["seasons"],
-        artifact: {
-            id: "MET-36630",
-            title: "Catching fireflies (Hotaru gari)",
-            date: "ca. 1796–97",
-            period: "Edo period (1615–1868)",
-            medium: "Triptych of polychrome woodblock prints; ink and color on paper",
-            image: "https://images.metmuseum.org/CRDImages/as/original/DP144584.jpg",
-            url: "https://www.metmuseum.org/art/collection/search/36630",
-            museum: "Metropolitan Museum of Art",
-            description: "Utamaro's enchanting triptych perfectly captures the summer night magic that Sei Shōnagon describes. The print shows elegant figures catching fireflies in the darkness, bringing to life her words about how beautiful it is when 'fireflies flit to and fro' on summer nights. This artwork demonstrates how the seasonal pleasure of hotaru-gari (firefly viewing) remained a cherished Japanese tradition, embodying the same appreciation for ephemeral natural beauty that characterized Heian court aesthetics."
-        }
     },
     {
         id: "young_bachelor",
