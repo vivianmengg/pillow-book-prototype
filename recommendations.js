@@ -83,6 +83,26 @@ const LOCATIONS = [
         placeName: "Fushimi Inari Shrine"
     },
     {
+        id: "sennyu_temple",
+        name: "Sennyū-ji Temple",
+        category: "temple",
+        period: "Origins in 9th century, rebuilt 1218",
+        image: "",
+        shortDescription: "Temple near Sei Shōnagon's father's mountain villa",
+        description: "Sennyū-ji Temple sits at the base of Mount Tsukinowa, where Sei Shōnagon's father Kiyowara no Motosuke had his mountain villa. Scholars believe Sei may have spent her later years in seclusion here. A monument inscribed with her poem now stands on the temple grounds, near the tomb of Empress Teishi whom she served. Though Sei did not write about this area directly, temple retreats feature prominently in her observations.",
+        seiQuote: "It's delightful to be on retreat at a temple over the New Year when it's terribly cold and there's a feeling of snow in the freezing air.",
+        highlights: [
+            "Site of Sei Shōnagon's father's mountain villa",
+            "Possible location of Sei's final years",
+            "Near tomb of Empress Teishi",
+            "Monument to Sei Shōnagon on grounds"
+        ],
+        currentStatus: "Active temple, imperial mausoleum site",
+        visitInfo: "Known as the imperial family temple, with monument commemorating Sei Shōnagon",
+        coordinates: { lat: 34.9537, lng: 135.7853 },
+        placeName: "Sennyu-ji Temple"
+    },
+    {
         id: "mount_ogura",
         name: "Mount Ogura",
         category: "nature",
@@ -201,26 +221,6 @@ const LOCATIONS = [
         visitInfo: "Famous for its thousands of lanterns and sacred deer park, maintaining traditions from Sei's era",
         coordinates: { lat: 34.6180, lng: 135.8465 },
         placeName: "Kasuga Taisha"
-    },
-    {
-        id: "sennyu_temple",
-        name: "Sennyū-ji Temple",
-        category: "temple",
-        period: "Origins in 9th century, rebuilt 1218",
-        image: "",
-        shortDescription: "Temple near Sei Shōnagon's father's mountain villa",
-        description: "Sennyū-ji Temple sits at the base of Mount Tsukinowa, where Sei Shōnagon's father Kiyowara no Motosuke had his mountain villa. Scholars believe Sei may have spent her later years in seclusion here. A monument inscribed with her poem now stands on the temple grounds, near the tomb of Empress Teishi whom she served. Though Sei did not write about this area directly, temple retreats feature prominently in her observations.",
-        seiQuote: "It's delightful to be on retreat at a temple over the New Year when it's terribly cold and there's a feeling of snow in the freezing air.",
-        highlights: [
-            "Site of Sei Shōnagon's father's mountain villa",
-            "Possible location of Sei's final years",
-            "Near tomb of Empress Teishi",
-            "Monument to Sei Shōnagon on grounds"
-        ],
-        currentStatus: "Active temple, imperial mausoleum site",
-        visitInfo: "Known as the imperial family temple, with monument commemorating Sei Shōnagon",
-        coordinates: { lat: 34.9537, lng: 135.7853 },
-        placeName: "Sennyu-ji Temple"
     }
 ];
 
