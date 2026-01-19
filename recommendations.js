@@ -30,7 +30,7 @@ const LOCATIONS = [
         image: "",
         shortDescription: "Sacred pilgrimage destination in Nara mentioned by Sei",
         description: "Hasedera Temple in Nara Prefecture was a major pilgrimage site for Heian court aristocracy. The Pillow Book includes a section titled 'Pilgrimage to the Hasedera' describing the arduous journey from the capital. Court ladies like Sei Shōnagon and Murasaki Shikibu both wrote about pilgrimages to this sacred site.",
-        seiQuote: "The Pillow Book includes a section on pilgrimage to Hasedera, describing the temple's famous covered log staircase and the sounds of the rushing water below.",
+        seiQuote: "Soon after the twentieth day of the ninth month, on a pilgrimage to Hase, I stayed along the way in a very rough and simple lodging house. I was quite exhausted, and fell into a deep sleep. Late that night, I woke and was deeply moved at the sight of the moonlight shining in through a window and casting its white light over the bedclothes of the sleeping forms around me. This is precisely the sort of moment when people compose poems.",
         highlights: [
             "11-meter tall wooden Kannon statue",
             "Popular pilgrimage destination for court nobles",
