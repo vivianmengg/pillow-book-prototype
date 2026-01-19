@@ -411,26 +411,6 @@ const ALL_PASSAGES = [
         }
     },
     {
-        id: "elegant_things",
-        title: "Elegant Things",
-        text: "A white coat worn over a violet waistcoat. Duck eggs. Shaved ice mixed with liana syrup and put in a new silver bowl. A rosary of rock crystal. Wisteria blossoms. Plum blossoms covered with snow. A pretty child eating strawberries.",
-        japanese: "",
-        theme: "Court aesthetics and refined objects",
-        tags: ["court", "lists"],
-        artifact: {
-            id: "HEIAN-ICE-CULTURE",
-            title: "Shaved Ice in Heian Japan",
-            date: "Heian period (794-1185)",
-            period: "Heian period",
-            medium: "Natural winter ice preservation",
-            image: "#",
-            url: "#",
-            museum: "Historical Practice",
-            connection: "Shaved ice mixed with liana syrup and put in a new silver bowl",
-            description: "The ability to have shaved ice during summer in Heian Japan was a remarkable feat of pre-refrigeration technology and social privilege. Ice was harvested during winter from frozen ponds and lakes in the mountains around Kyoto, then stored in specially constructed underground ice houses called 'himuro' (氷室). These ice storage facilities were lined with straw and other insulating materials to preserve the ice through the hot, humid Japanese summer. The ice was cut into blocks and carefully transported to the capital, where it became an incredibly precious commodity available only to the imperial court and highest nobility. When Sei Shōnagon mentions 'shaved ice mixed with liana syrup and put in a new silver bowl,' she's describing what was essentially the world's most luxurious dessert - a treat that required months of preparation, specialized storage technology, and enormous expense. The combination of the rare ice, exotic syrup, and precious silver serving bowl made this refreshment the ultimate symbol of aristocratic elegance and refinement."
-        }
-    },
-    {
         id: "young_bachelor",
         title: "A Young Bachelor",
         text: "A young bachelor of an adventurous nature comes home at dawn, having spent the night in some amorous encounter... Presently he performs his ablutions and changes into a white Court cloak, which he wears without any trousers. Thus attired, he starts reciting the sixth scroll of the Lotus Sutra from memory. A pious gentleman indeed - or so one might think, except that at just this moment the messenger returns and nods encouragingly to his master, who thereupon instantly interrupts his recitation and, with what might strike one as sinful haste, transfers his attention to the lady's reply.",
