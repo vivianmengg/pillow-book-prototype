@@ -108,14 +108,14 @@ const LOCATIONS = [
         category: "nature",
         period: "Natural landmark",
         image: "",
-        shortDescription: "Famous mountain of poets in Arashiyama",
-        description: "Mount Ogura in the Arashiyama area of Kyoto is famous for its association with classical poetry. In the 13th century, Fujiwara no Teika compiled the Ogura Hyakunin Isshu poetry anthology at his villa here, which included one of Sei Shōnagon's poems. Though she did not write about this mountain directly, her appreciation for peaks appears in her lists.",
-        seiQuote: "Peaks: Yuzuruha Peak. Amida Peak. Iyataka Peak.",
+        shortDescription: "Mountain listed by Sei Shōnagon, later site of famous poetry anthology",
+        description: "Mount Ogura in the Arashiyama area of Kyoto appears first in Sei Shōnagon's list of mountains in The Pillow Book. Centuries later, Fujiwara no Teika compiled the Ogura Hyakunin Isshu poetry anthology at his villa here, which included one of Sei Shōnagon's poems (#62). The mountain's literary significance spans from Heian court culture to medieval poetry.",
+        seiQuote: "Mountains: Ogura Mountain. Mount Kase. Mount Mikasa. Mount Konokure. Mount Iritachi. Mount Wasurezu. Sue no Matsu Mountain. Mount Katasari — I wonder how it stands aside? Mount Itsuhata. Mount Kaeru. Mount Nochise. Asakura Mountain.",
         highlights: [
+            "Listed first in Sei Shōnagon's mountains list",
             "Site where Ogura Hyakunin Isshu was compiled",
             "Sei Shōnagon's poem (#62) included in the anthology",
-            "Views over the Heian capital",
-            "Autumn colors celebrated in literature"
+            "Views over the Heian capital"
         ],
         currentStatus: "Natural landmark in Kyoto's Arashiyama area",
         visitInfo: "Accessible from Saga-Arashiyama Station, famous for autumn colors",
