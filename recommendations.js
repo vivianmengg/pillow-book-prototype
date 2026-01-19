@@ -441,7 +441,8 @@ function renderMapMarkers() {
         `;
 
         const infoWindow = new google.maps.InfoWindow({
-            content: infoWindowContent
+            content: infoWindowContent,
+            maxWidth: 380
         });
 
         marker.addListener('click', () => {
