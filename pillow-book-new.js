@@ -5,8 +5,8 @@
 const ALL_PASSAGES = [
     {
         id: "spring_dawn",
-        title: "In Spring It Is the Dawn",
-        text: "In spring it is the dawn that is most beautiful. As the light creeps over the hills, their outlines are dyed a faint red and wisps of purplish cloud trail over them.",
+        title: "In spring, the dawn",
+        text: "In spring, the dawn - when the slowly paling mountain rim is tinged with red, and wisps of faintly crimson-purple cloud float in the sky.",
         japanese: "",
         theme: "The fleeting beauty of dawn moments",
         tags: ["seasons"],
