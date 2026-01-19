@@ -4,6 +4,25 @@
 // Chronological array of all passages as they appear in the book
 const ALL_PASSAGES = [
     {
+        id: "spring_dawn",
+        title: "In Spring It Is the Dawn",
+        text: "In spring it is the dawn that is most beautiful. As the light creeps over the hills, their outlines are dyed a faint red and wisps of purplish cloud trail over them.",
+        japanese: "",
+        theme: "The fleeting beauty of dawn moments",
+        tags: ["seasons"],
+        artifact: {
+            id: "MET-36935",
+            title: "Hara: Mount Fuji in the Morning (Hara, Asa no Fuji)",
+            date: "ca. 1833–34",
+            period: "Edo period (1615–1868)",
+            medium: "Polychrome woodblock print; ink and color on paper",
+            image: "https://images.metmuseum.org/CRDImages/as/original/DP122187.jpg",
+            url: "https://www.metmuseum.org/art/collection/search/36935",
+            museum: "Metropolitan Museum of Art",
+            description: "Hiroshige's masterful print captures exactly what Sei Shōnagon found most beautiful about spring dawns - the gentle morning light illuminating mountain peaks with subtle colors. The soft gradations from dark to light in the sky perfectly embody her observation that 'In spring it is the dawn that is most beautiful... the faintly colored mountains.' This artwork shows how Japanese artists continued to celebrate the same ephemeral dawn beauty that enchanted Heian court observers centuries earlier."
+        }
+    },
+    {
         id: "new_year_delights",
         title: "Especially Delightful Is the First Day",
         text: "Especially delightful is the first day of the First Month, when the mists so often shroud the sky. Everyone pays great attention to his appearance and dresses with the utmost care... This is the day when members of the nobility who live outside the Palace arrive in their magnificently decorated carriages to admire the blue horses. As the carriages are drawn over the ground-beam of the Central Gate, there is always a tremendous bump, and the heads of the women passengers are knocked together; the combs fall out of their hair, and may be smashed to pieces if the owners are not careful... Some of them were not properly powdered; here and there their skin showed through unpleasantly like the dark patches of earth in a garden where the snow has begun to melt.",
@@ -371,25 +390,6 @@ const ALL_PASSAGES = [
                 description: "This luxurious kosode features the tachibana (mandarin orange tree) that Sei Shōnagon lists among her favored trees. The embroidered design shows the tree bearing both fruit and flowers, capturing exactly the kind of aesthetic appeal she found in orange trees. In Japanese culture, tachibana symbolizes longevity and good fortune - qualities that align with her appreciation for trees that offered both visual beauty and cultural significance."
             }
         ]
-    },
-    {
-        id: "spring_dawn",
-        title: "In Spring It Is the Dawn",
-        text: "In spring it is the dawn that is most beautiful. As the light creeps over the hills, their outlines are dyed a faint red and wisps of purplish cloud trail over them.",
-        japanese: "",
-        theme: "The fleeting beauty of dawn moments",
-        tags: ["seasons"],
-        artifact: {
-            id: "MET-36935",
-            title: "Hara: Mount Fuji in the Morning (Hara, Asa no Fuji)",
-            date: "ca. 1833–34",
-            period: "Edo period (1615–1868)",
-            medium: "Polychrome woodblock print; ink and color on paper",
-            image: "https://images.metmuseum.org/CRDImages/as/original/DP122187.jpg",
-            url: "https://www.metmuseum.org/art/collection/search/36935",
-            museum: "Metropolitan Museum of Art",
-            description: "Hiroshige's masterful print captures exactly what Sei Shōnagon found most beautiful about spring dawns - the gentle morning light illuminating mountain peaks with subtle colors. The soft gradations from dark to light in the sky perfectly embody her observation that 'In spring it is the dawn that is most beautiful... the faintly colored mountains.' This artwork shows how Japanese artists continued to celebrate the same ephemeral dawn beauty that enchanted Heian court observers centuries earlier."
-        }
     },
     {
         id: "summer_nights",
