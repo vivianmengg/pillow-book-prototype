@@ -43,6 +43,46 @@ const LOCATIONS = [
         placeName: "Hasedera Temple"
     },
     {
+        id: "kiyomizu_temple",
+        name: "Kiyomizu-dera Temple",
+        category: "temple",
+        period: "Founded 778, rebuilt multiple times",
+        image: "",
+        shortDescription: "Historic temple famous for its wooden platform and pure springs",
+        description: "Kiyomizu-dera Temple, founded in 778, was about 200 years old during Sei Shōnagon's time at court. The temple's name means 'clear water' referring to the pure springs that flow beneath it. This sacred site, with its dramatic views over the capital and its association with the Kannon bodhisattva of mercy, was a popular pilgrimage destination for Heian court aristocracy.",
+        seiQuote: "Once when I had gone to Kiyomizu Temple for a retreat and was listening with deep emotion to the loud cry of the cicadas, a special messenger brought me a note from Her Majesty written on a sheet of red-tinted Chinese paper... Since I had forgotten to bring along any suitable paper, I wrote my reply on a purple lotus petal.", seiQuote2: "It's delightful to be on retreat at a temple over the New Year when it's terribly cold and there's a feeling of snow in the freezing air. On the other hand, it ruins the mood of the occasion if the skies are instead heavy with the threat of rain. You've come on pilgrimage to the temple at Kiyomizu, say, intending to seclude yourself in one of the private seclusion rooms; the carriage is drawn up to the foot of the long stairs leading up to the temple, and while the room is being prepared, you observe the young monks, dressed only in little waist-robes and wearing those high clogs they wear, trotting perfectly nonchalantly up and down the steep stairway, murmuring scraps of sutra or chanting the four-word verses of the Kusha Sutra as they go. It's a scene that goes perfectly with the place.",
+        highlights: [
+            "Famous wooden platform without nails",
+            "Sacred Otowa Waterfall with pure springs",
+            "Panoramic views over Kyoto",
+            "UNESCO World Heritage Site"
+        ],
+        currentStatus: "Active temple, UNESCO World Heritage Site",
+        visitInfo: "One of Kyoto's most famous temples, known for its architectural marvel and spiritual significance",
+        coordinates: { lat: 34.9949, lng: 135.7849 },
+        placeName: "Kiyomizu-dera Temple"
+    },
+    {
+        id: "fushimi_inari",
+        name: "Fushimi Inari Shrine",
+        category: "temple",
+        period: "Founded 711, expanded in Heian Period",
+        image: "",
+        shortDescription: "Sacred shrine with thousands of vermillion torii gates",
+        description: "Fushimi Inari Shrine, founded in 711, became increasingly important during the Heian period as the shrine dedicated to Inari, the Shinto deity of rice and prosperity. The thousands of vermillion torii gates winding up the mountain create one of Japan's most mystical religious landscapes, representing the kind of sacred beauty that would have moved court observers like Sei Shōnagon.",
+        seiQuote: "You have an urge to go on a pilgrimage to Inari Shrine, and as you're laboriously gasping your way up the steep mountainside to the middle shrine, you're filled with admiration to see others who've obviously started behind you go climbing straight up without the least effort; when you arrive, there they stand, already at their worship.",
+        highlights: [
+            "Thousands of vermillion torii gates",
+            "Sacred to Inari, deity of rice and prosperity",
+            "Mountain shrine complex",
+            "Mystical forest pathways"
+        ],
+        currentStatus: "Active shrine, major pilgrimage site",
+        visitInfo: "Famous for its tunnel of thousands of torii gates donated over centuries",
+        coordinates: { lat: 34.9671, lng: 135.7727 },
+        placeName: "Fushimi Inari Shrine"
+    },
+    {
         id: "mount_ogura",
         name: "Mount Ogura",
         category: "nature",
@@ -108,8 +148,8 @@ const LOCATIONS = [
         category: "palace",
         period: "Current palace built 1855",
         image: "",
-        shortDescription: "Current palace preserving Heian architectural traditions",
-        description: "While not the original palace where Sei Shōnagon served, the current Kyoto Imperial Palace preserves the architectural styles and layout principles of Heian court culture. The gardens and structures provide insight into the refined aesthetic environment that shaped her observations.",
+        shortDescription: "1855 reconstruction preserving Heian architectural traditions",
+        description: "The current Kyoto Imperial Palace, rebuilt in 1855 after fires, is a deliberate reconstruction of Heian-period shinden-zukuri architecture based on scholarly research of historical documents. While not the original palace where Sei Shōnagon served, the Shishinden (main ceremonial hall) was specifically restored according to ancient Heian traditions. It represents the closest approximation of shinden-zukuri style that visitors can experience today, as no original Heian-era aristocratic estates survive.",
         seiQuote: "Looking through one of the gates of the Palace enclosure, I could dimly make out a garden fence, near which a number of ladies, several of them from the Office of the Grounds, went to and fro. What lucky women, I thought, who could walk about the Nine-Fold Enclosure as though they had lived there all their lives!",
         highlights: [
             "Preserves Heian architectural principles",
@@ -141,46 +181,6 @@ const LOCATIONS = [
         visitInfo: "Features ancient forest setting and traditional Shinto architecture",
         coordinates: { lat: 35.0378, lng: 135.7725 }, // Shimogamo Shrine
         placeName: "Shimogamo Shrine"
-    },
-    {
-        id: "fushimi_inari",
-        name: "Fushimi Inari Shrine",
-        category: "temple",
-        period: "Founded 711, expanded in Heian Period",
-        image: "",
-        shortDescription: "Sacred shrine with thousands of vermillion torii gates",
-        description: "Fushimi Inari Shrine, founded in 711, became increasingly important during the Heian period as the shrine dedicated to Inari, the Shinto deity of rice and prosperity. The thousands of vermillion torii gates winding up the mountain create one of Japan's most mystical religious landscapes, representing the kind of sacred beauty that would have moved court observers like Sei Shōnagon.",
-        seiQuote: "You have an urge to go on a pilgrimage to Inari Shrine, and as you're laboriously gasping your way up the steep mountainside to the middle shrine, you're filled with admiration to see others who've obviously started behind you go climbing straight up without the least effort; when you arrive, there they stand, already at their worship.",
-        highlights: [
-            "Thousands of vermillion torii gates",
-            "Sacred to Inari, deity of rice and prosperity", 
-            "Mountain shrine complex",
-            "Mystical forest pathways"
-        ],
-        currentStatus: "Active shrine, major pilgrimage site",
-        visitInfo: "Famous for its tunnel of thousands of torii gates donated over centuries",
-        coordinates: { lat: 34.9671, lng: 135.7727 }, // Fushimi Inari Shrine
-        placeName: "Fushimi Inari Shrine"
-    },
-    {
-        id: "kiyomizu_temple", 
-        name: "Kiyomizu-dera Temple",
-        category: "temple",
-        period: "Founded 778, rebuilt multiple times",
-        image: "",
-        shortDescription: "Historic temple famous for its wooden platform and pure springs",
-        description: "Kiyomizu-dera Temple, founded in 778, was about 200 years old during Sei Shōnagon's time at court. The temple's name means 'clear water' referring to the pure springs that flow beneath it. This sacred site, with its dramatic views over the capital and its association with the Kannon bodhisattva of mercy, was a popular pilgrimage destination for Heian court aristocracy.",
-        seiQuote: "Once when I had gone to Kiyomizu Temple for a retreat and was listening with deep emotion to the loud cry of the cicadas, a special messenger brought me a note from Her Majesty written on a sheet of red-tinted Chinese paper... Since I had forgotten to bring along any suitable paper, I wrote my reply on a purple lotus petal.", seiQuote2: "It's delightful to be on retreat at a temple over the New Year when it's terribly cold and there's a feeling of snow in the freezing air. On the other hand, it ruins the mood of the occasion if the skies are instead heavy with the threat of rain. You've come on pilgrimage to the temple at Kiyomizu, say, intending to seclude yourself in one of the private seclusion rooms; the carriage is drawn up to the foot of the long stairs leading up to the temple, and while the room is being prepared, you observe the young monks, dressed only in little waist-robes and wearing those high clogs they wear, trotting perfectly nonchalantly up and down the steep stairway, murmuring scraps of sutra or chanting the four-word verses of the Kusha Sutra as they go. It's a scene that goes perfectly with the place.",
-        highlights: [
-            "Famous wooden platform without nails",
-            "Sacred Otowa Waterfall with pure springs",
-            "Panoramic views over Kyoto",
-            "UNESCO World Heritage Site"
-        ],
-        currentStatus: "Active temple, UNESCO World Heritage Site", 
-        visitInfo: "One of Kyoto's most famous temples, known for its architectural marvel and spiritual significance",
-        coordinates: { lat: 34.9949, lng: 135.7849 }, // Kiyomizu-dera Temple
-        placeName: "Kiyomizu-dera Temple"
     },
     {
         id: "kasuga_shrine",
