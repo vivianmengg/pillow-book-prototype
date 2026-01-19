@@ -536,11 +536,13 @@ function openLocationModal(locationId) {
             ${location.description}
         </div>
         
+        ${location.seiQuote ? `
         <div class="sei-quote">
             "${location.seiQuote}"
             <div class="quote-author">— sei shōnagon</div>
         </div>
-        
+        ` : ''}
+
         ${location.seiQuote2 ? `
         <div class="sei-quote">
             "${location.seiQuote2}"
