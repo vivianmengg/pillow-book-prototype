@@ -43,46 +43,6 @@ const LOCATIONS = [
         placeName: "Hasedera Temple"
     },
     {
-        id: "nijo_mansion",
-        name: "Nijo Aristocratic Quarter",
-        category: "palace",
-        period: "Heian Period (794-1185)",
-        image: "",
-        shortDescription: "Historic area of aristocratic mansions",
-        description: "The Nijo area was home to elegant aristocratic residences during the Heian period. While specific mansions mentioned in literature may have been fictional, this area was genuinely populated by court nobles and their grand estates, hosting poetry gatherings and seasonal celebrations.",
-        seiQuote: "Members of the nobility who lived outside the Palace arrive in their magnificently decorated carriages... As the carriages are drawn over the ground-beam of the Central Gate, there is always a tremendous bump, and the heads of the women passengers are knocked together; the combs fall out of their hair...",
-        highlights: [
-            "Historic area of aristocratic residences",
-            "Scene of cultural gatherings", 
-            "Example of refined court architecture",
-            "Setting for seasonal observations"
-        ],
-        currentStatus: "Area still exists, now contains Nijo Castle",
-        visitInfo: "Modern Nijo Castle built in 1603 occupies historically significant aristocratic area",
-        coordinates: { lat: 35.0142, lng: 135.7489 }, // Nijo area in Kyoto
-        placeName: "Nijo Castle"
-    },
-    {
-        id: "ichijo_mansion",
-        name: "Ichijo Family Residences",
-        category: "palace",
-        period: "Heian Period (794-1185)",
-        image: "",
-        shortDescription: "Residences of the powerful Ichijo family",
-        description: "The Ichijo family were prominent court nobles during the Heian period. Emperor Ichijo (r. 986-1011) was the emperor under whom Sei Shōnagon served via Empress Teishi. The family maintained elegant residences in the northern part of the capital.",
-        seiQuote: "When Teishi's attendants arrived at Narimasa's house, they found the gate too narrow for their carriages.",
-        highlights: [
-            "Ichijo family were major court nobles",
-            "Emperor Ichijo ruled during Sei's service",
-            "Northern capital location for aristocrats",
-            "Centers of court social and cultural life"
-        ],
-        currentStatus: "Historical area in northern Kyoto", 
-        visitInfo: "Located on what is now Ichijo street in central Kyoto",
-        coordinates: { lat: 35.0306, lng: 135.7562 }, // Ichijo area in Kyoto
-        placeName: "Ichijo Street Kyoto"
-    },
-    {
         id: "mount_ogura",
         name: "Mount Ogura",
         category: "nature",
