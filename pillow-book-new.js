@@ -447,8 +447,8 @@ const ALL_PASSAGES = [
                 period: "Heian period",
                 medium: "Historical portrait with annotations",
                 image: "./images/heian-makeup-features.jpg",
-                url: "#",
-                museum: "Historical Reference",
+                url: "",
+                museum: "Image courtesy of Dr. Christina Laffin, UBC",
                 connection: "makeup",
                 description: "This annotated portrait illustrates the striking Heian beauty standards that Sei Shōnagon would have followed when 'applying makeup.' The pale complexion was achieved with white face powder (oshiroi), eyebrows were plucked and repainted high on the forehead as delicate 'moth brows,' teeth were blackened (ohaguro), and a small rosebud mouth was painted. These elaborate beauty rituals were central to court life and explain why applying makeup could make one's 'heart beat fast' - it was a transformation into an idealized aesthetic that required skill, time, and expensive materials."
             },
@@ -459,8 +459,8 @@ const ALL_PASSAGES = [
                 period: "Heian period",
                 medium: "Silk layers in carefully coordinated colors",
                 image: "./images/junihitoe.jpg",
-                url: "#",
-                museum: "Traditional Court Costume",
+                url: "",
+                museum: "",
                 connection: "clothes",
                 description: "Jūni-hitoe was the 12 layered robes worn by the noblewomen of the court. In Heian society, colour symbolism in clothing was especially important, and they wore different combinations of colours in varying seasons. These colours did not reproduce the exact colours of the season, but were meant to evoke the feeling of it by giving these colour combinations poetic names in reference to the flora and fauna of the season. Throughout the book, Shōnagon references many of these combinations, including the cherry-blossom combination, the plum pink combination, the lavender combination, and autumn leaf ochre robes. When Sei Shōnagon writes about putting on 'clothes that are well-scented with incense,' she's referring to these elaborate layered garments that transformed dressing into a poetic ritual of seasonal beauty."
             },
@@ -474,9 +474,7 @@ const ALL_PASSAGES = [
                 url: "https://colbase.nich.go.jp/collection_items/kyohaku/H%E7%94%B292-32?locale=en",
                 museum: "Kyoto National Museum",
                 connection: "incense",
-                description: "This authentic Heian period incense artifact from the Kyoto National Museum represents the sophisticated incense culture that Sei Shōnagon observed. The informational text describes how courtiers would 'scent their robes by suspending them over incense burners (takimono) infused with precious aromatic woods—aloeswood, sandalwood, and kyara—sourced from Vietnam, Laos, and other parts of Southeast Asia.' These imported aromatics were so valuable that only the wealthiest could afford them, making scent itself a crucial marker of status and refinement in Heian court society.",
-                hasLearnMore: true,
-                learnMoreContent: "**Dr. Maiko Behr, Expert in Heian Court Culture:** 'What people don't realize is how central scent was to personal identity in Heian society. When Sei Shōnagon writes about incense, she's describing a world where your fragrance was as important as your appearance.'\n\nIncense culture in Heian Japan was incredibly sophisticated and central to court life. The practice of scenting clothes (takimono) involved suspending garments over special incense burners overnight, allowing the aromatic smoke to permeate the fabric. Different incense blends were associated with different seasons, emotions, and social occasions. The most prized ingredients included aloeswood (jinko), sandalwood (byakudan), and kyara - a particularly rare and expensive variety of aloeswood.\n\n'The economics were staggering,' notes Dr. Behr. 'A single piece of kyara could cost more than a house. Court nobles would literally wear their wealth in the form of scent.' These materials were imported from Southeast Asia at enormous cost, making them symbols of wealth and refinement. Court nobles would compete in incense contests (takimono-awase) where participants had to identify different blends by scent alone, demonstrating their cultural sophistication."
+                description: "This authentic Heian period incense artifact from the Kyoto National Museum represents the sophisticated incense culture that Sei Shōnagon observed. The informational text describes how courtiers would 'scent their robes by suspending them over incense burners (takimono) infused with precious aromatic woods—aloeswood, sandalwood, and kyara—sourced from Vietnam, Laos, and other parts of Southeast Asia.' These imported aromatics were so valuable that only the wealthiest could afford them, making scent itself a crucial marker of status and refinement in Heian court society."
             }
         ]
     },
