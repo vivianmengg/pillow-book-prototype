@@ -313,7 +313,6 @@ function editUserList(listId, index) {
     const timeSinceCreation = Date.now() - userList.timestamp;
     
     if (timeSinceCreation > editWindowMs) {
-        alert('Lists can only be edited within 1 minute of posting. This preserves the authentic, spontaneous spirit of Sei Shōnagon\'s observations.');
         return;
     }
     
