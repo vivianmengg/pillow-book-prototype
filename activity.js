@@ -60,9 +60,6 @@ let userLists = {};
 // Admin mode - access via ?admin=true in URL
 const isAdminMode = new URLSearchParams(window.location.search).get('admin') === 'true';
 
-// Class code required to post
-const CLASS_CODE = 'pillow';
-
 // Load from localStorage initially as fallback
 try {
     userLists = JSON.parse(localStorage.getItem('pillowBookUserLists')) || {};
@@ -340,15 +337,6 @@ async function saveUserList() {
     const authorName = document.getElementById('authorName').value.trim();
 
     if (!input) return;
-
-    // Require class code for new posts (not edits)
-    if (currentModal.editIndex === null) {
-        const enteredCode = prompt('Enter the class code to post your list:');
-        if (!enteredCode || enteredCode.toLowerCase() !== CLASS_CODE) {
-            alert('Incorrect class code. Please try again.');
-            return;
-        }
-    }
 
     // Check for inappropriate content in both list content and author name
     if (containsInappropriateContent(input)) {
