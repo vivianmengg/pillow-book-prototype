@@ -329,8 +329,11 @@ function closeModal() {
     currentModal = null;
 }
 
+let isSaving = false;
+
 async function saveUserList() {
     if (!currentModal) return;
+    if (isSaving) return; // Prevent double-clicks
 
     const input = document.getElementById('listInput').value.trim();
     const authorName = document.getElementById('authorName').value.trim();
@@ -353,6 +356,14 @@ async function saveUserList() {
         .filter(item => item.length > 0);
 
     if (items.length === 0) return;
+
+    // Set saving state and update button
+    isSaving = true;
+    const saveBtn = document.querySelector('.modal-btn.save');
+    if (saveBtn) {
+        saveBtn.textContent = 'Saving...';
+        saveBtn.disabled = true;
+    }
 
     const userList = {
         items: items,
@@ -392,6 +403,14 @@ async function saveUserList() {
     // Re-render and close modal
     renderActivityGrid();
     closeModal();
+
+    // Reset saving state
+    isSaving = false;
+    const saveBtn = document.querySelector('.modal-btn.save');
+    if (saveBtn) {
+        saveBtn.textContent = 'Save List';
+        saveBtn.disabled = false;
+    }
 }
 
 // Modal event handlers
