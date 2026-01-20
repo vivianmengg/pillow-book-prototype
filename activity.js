@@ -406,7 +406,6 @@ async function saveUserList() {
 
     // Reset saving state
     isSaving = false;
-    const saveBtn = document.querySelector('.modal-btn.save');
     if (saveBtn) {
         saveBtn.textContent = 'Save List';
         saveBtn.disabled = false;
